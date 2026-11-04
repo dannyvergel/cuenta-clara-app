@@ -2,7 +2,7 @@
 
 Plataforma de trazabilidad de compras públicas: licitaciones, ofertas selladas, precios de referencia, presupuesto y un registro de decisiones encadenado con hashes que cualquiera puede verificar.
 
-**Demo:** se publica en Vercel en modo datos sintéticos (ver más abajo).
+**Demo:** https://cuenta-clara-xi.vercel.app/ (modo datos sintéticos, ver más abajo)
 
 ## El problema
 
