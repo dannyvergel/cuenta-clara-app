@@ -2,8 +2,7 @@
 
 Plataforma de trazabilidad de compras públicas: licitaciones, ofertas selladas, precios de referencia, presupuesto y un registro de decisiones encadenado con hashes que cualquiera puede verificar.
 
-**Demo:** https://cuenta-clara-app-six.vercel.app/  
-**Track:** Social & Sector Público
+**Demo:** se publica en Vercel en modo datos sintéticos (ver más abajo).
 
 ## El problema
 
@@ -47,6 +46,7 @@ Next.js (App Router), React 19, Tailwind CSS 4, Postgres en Neon, Leaflet para e
 | `SEED_TOKEN` | Protege `POST /api/seed`, que carga los datos de ejemplo. |
 | `OPENROUTER_API_KEY` | Habilita la síntesis con IA. Sin ella el botón muestra un aviso. |
 | `OPENROUTER_MODEL` | Modelo a usar (por defecto `anthropic/claude-sonnet-4.5`). |
+| `NEXT_PUBLIC_DATOS_DEMO` | `1` para el modo demo sin base (datos sintéticos, sin persistencia). |
 | `DEMO_PASSWORD`, `SESSION_SECRET` | Opcionales: clave de las cuentas de demo y secreto de la cookie. Tienen valores por defecto públicos, solo aptos para demostración. |
 
 ## Desarrollo
@@ -57,6 +57,10 @@ pnpm dev
 ```
 
 Sin `DATABASE_URL`, en desarrollo se usan datos sintéticos locales.
+
+### Modo demo sin base
+
+Con `NEXT_PUBLIC_DATOS_DEMO=1` y sin `DATABASE_URL`, el despliegue usa los datos sintéticos de `lib/mock.ts`. Sirve para mostrar la plataforma sin infraestructura: la consulta, el mapa, el presupuesto y la verificación de integridad funcionan; lo que se escribe (ofertas, observaciones) no persiste, y crear o cerrar licitaciones necesita la base.
 
 ## Limitaciones conocidas
 
