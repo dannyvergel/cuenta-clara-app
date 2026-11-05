@@ -13,7 +13,7 @@ así que la ingesta es lenta, reanudable y conviene correrla desde Argentina.
 ```powershell
 cd C:\dev\cuenta-clara-app
 node scripts/ingesta/rosario.mjs --desde 34000 --hasta 38722 --concurrencia 1
-node scripts/ingesta/senales.mjs datos/rosario.jsonl > datos/observatorio.json
+node scripts/ingesta/senales.mjs datos/rosario.jsonl --salida datos/observatorio.json
 ```
 
 Si se corta, volvé a correr el mismo comando: saltea los ids ya bajados.

@@ -6,7 +6,11 @@
 import fs from 'node:fs'
 import { adjudicatarios, cuitValido, monto } from './rosario.mjs'
 
-const archivos = process.argv.slice(2)
+// --salida archivo.json escribe en UTF-8 (en PowerShell 5.1 el ">" guarda UTF-16 y rompe los acentos).
+const argv = process.argv.slice(2)
+const iSal = argv.indexOf('--salida')
+const SALIDA = iSal >= 0 ? argv.splice(iSal, 2)[1] : null
+const archivos = argv
 const regs = new Map()
 for (const f of archivos)
   for (const l of fs.readFileSync(f, 'utf8').split('\n')) if (l.trim()) { const r = JSON.parse(l); regs.set(`${r.fuente}:${r.id_fuente}`, r) }
@@ -76,7 +80,7 @@ for (const r of R) for (const a of r.adjudicatarios ?? []) {
 const proveedores = [...prov.values()].map((p) => ({ ...p, reparticiones: p.reparticiones.size })).sort((a, b) => b.monto - a.monto)
 
 const cuenta = (f) => Object.entries(R.reduce((m, r) => ((m[f(r)] = (m[f(r)] ?? 0) + 1), m), {})).sort((a, b) => b[1] - a[1])
-console.log(JSON.stringify({
+const json = JSON.stringify({
   generado: new Date().toISOString(),
   contrataciones: R.length,
   adjudicadas: R.filter((r) => r.estado === 'Adjudicada').length,
@@ -84,4 +88,6 @@ console.log(JSON.stringify({
   por_tipo: cuenta((r) => r.tipo), por_estado: cuenta((r) => r.estado), por_reparticion: cuenta((r) => r.reparticion).slice(0, 15),
   senales_por_codigo: Object.entries(senales.reduce((m, s) => ((m[s.codigo] = (m[s.codigo] ?? 0) + 1), m), {})),
   senales, concentracion, proveedores: proveedores.slice(0, 50),
-}, null, 2))
+}, null, 2)
+if (SALIDA) fs.writeFileSync(SALIDA, json + '\n', 'utf8')
+else console.log(json)
