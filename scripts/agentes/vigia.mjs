@@ -59,6 +59,7 @@ function senalesActuales() {
 
 async function main() {
   const inicio = new Date()
+  log(`inicio (node ${process.version}, carpeta ${process.cwd()})`)
   const regs = leerRegistros()
   const antes = senalesActuales()
   const errores = []
@@ -69,7 +70,7 @@ async function main() {
   let vacios = 0
   for (let id = ultimo + 1; nuevas < MAX_NUEVAS && vacios < MAX_VACIOS; id++) {
     const r = await bajar(id)
-    if (r) { regs.set(id, r); nuevas++; vacios = 0 } else vacios++
+    if (r) { regs.set(id, r); nuevas++; vacios = 0; log(`nueva ${id}: ${r.objeto?.slice(0, 80)}`) } else vacios++
     await dormir(PAUSA)
   }
   log(`nuevas: ${nuevas} (último id antes: ${ultimo})`)
