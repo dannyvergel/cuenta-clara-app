@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T17:06:33.469Z",
+  "generado": "2026-11-05T17:24:16.132Z",
   "contrataciones": 4613,
   "adjudicadas": 3364,
   "monto_adjudicado": 124219857582.50993,
@@ -138,7 +138,7 @@
     ],
     [
       "SOBRE_PRESUPUESTO",
-      240
+      221
     ],
     [
       "CUIT_INVALIDO",
@@ -238,7 +238,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -408,7 +408,7 @@
       "reparticion": "Dirección General de Tránsito",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -508,7 +508,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 13% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -898,7 +898,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 5% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -928,7 +928,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 13% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -968,7 +968,7 @@
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 5% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1008,7 +1008,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1068,7 +1068,7 @@
       "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 23% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1118,7 +1118,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 12% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1138,7 +1138,7 @@
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 11% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1328,7 +1328,7 @@
       "reparticion": "APS (S.S.P.)",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 10% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1338,7 +1338,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 20% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1368,7 +1368,7 @@
       "reparticion": "Hospital \"Dr. Roque Sáenz Peña\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 15% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1388,7 +1388,7 @@
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1398,7 +1398,7 @@
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 10% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1428,7 +1428,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 15% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1468,7 +1468,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 21% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1698,7 +1698,7 @@
       "reparticion": "APS (S.S.P.)",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1758,7 +1758,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1828,7 +1828,7 @@
       "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1898,7 +1898,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -1958,7 +1958,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 10% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -2017,8 +2017,8 @@
       "objeto": "Provisión de concreto asfáltico en caliente y emulsión asfáltica catiónica de rotura rápida o media - Dir. Gral. de Pavimentos y Calzadas",
       "reparticion": "Dirección General de Pavimentos y Calzadas",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 6% sobre el presupuesto ajustado por inflación (7% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -2077,7 +2077,7 @@
       "objeto": "(COMPRA AGIL 05-069-3104-2026)  -HOSPITAL DR. ROQUE SAENZ PEÑA-",
       "reparticion": "Hospital \"Dr. Roque Sáenz Peña\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 42% sobre el presupuesto oficial",
+      "detalle": "Adjudicado 40% sobre el presupuesto ajustado por inflación (42% nominal)",
       "peso": 3
     },
     {
@@ -2109,16 +2109,6 @@
       "codigo": "DESIERTA_O_FRACASADA",
       "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
       "peso": 1
-    },
-    {
-      "fuente": "rosario",
-      "id": 37714,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37714",
-      "objeto": "Compra ágil Nº 03-136-2026 BIOMEDICOS HILOS Y SUTURAS. \"Hospital Vilela\".-",
-      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
     },
     {
       "fuente": "rosario",
@@ -2272,16 +2262,6 @@
     },
     {
       "fuente": "rosario",
-      "id": 37686,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37686",
-      "objeto": "COMPRA ÁGIL Elementos Esterilización SECRETARÍA DE SALUD PÚBLICA",
-      "reparticion": "Secretaría de Salud Pública",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "fuente": "rosario",
       "id": 37681,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37681",
       "objeto": "COMPRA ÁGIL Inyectables SECRETARÍA DE SALUD PÚBLICA",
@@ -2367,8 +2347,8 @@
       "objeto": "(COMPRA AGIL 05-067-3101-2026) MEDICAMENTOS ESPECIALIDADES MEDICINALES  -HOSPITAL DR. ROQUE SAENZ PEÑA-",
       "reparticion": "Hospital \"Dr. Roque Sáenz Peña\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 15% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 13% sobre el presupuesto ajustado por inflación (15% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -2477,8 +2457,8 @@
       "objeto": "COMPRA ÁGIL: contratación del servicio de limpieza y mantenimiento de espacios exteriores del Policlínico San Martín, dependiente de la Secretaría de Salud Pública.",
       "reparticion": "APS (S.S.P.)",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 10% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 8% sobre el presupuesto ajustado por inflación (10% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -2758,7 +2738,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -2848,7 +2828,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -2868,7 +2848,7 @@
       "reparticion": "Secretaría de Salud Pública",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -2928,7 +2908,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -2988,7 +2968,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 11% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -3087,8 +3067,8 @@
       "objeto": "Compra ágil Nº 03-121-2026 - BIOMÉDICOS PARA NEUROCIRUGÍA (PTE.- ROMERO AMBAR) \"Hospital Vilela\".-",
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 16% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 13% sobre el presupuesto ajustado por inflación (16% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -3109,16 +3089,6 @@
       "codigo": "DESIERTA_O_FRACASADA",
       "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
       "peso": 1
-    },
-    {
-      "fuente": "rosario",
-      "id": 37392,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37392",
-      "objeto": "(COMPRA ÁGIL Nº 057) CASETES Y PANTALLAS - HOSPITAL ROQUE SAENZ PEÑA.-",
-      "reparticion": "Hospital \"Dr. Roque Sáenz Peña\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
     },
     {
       "fuente": "rosario",
@@ -3368,7 +3338,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -3397,8 +3367,8 @@
       "objeto": "Puesta en valor de tres (3) espacios públicos de juegos y la provisión e instalación de juegos ejercitadores para distintos espacios de la ciudad de Rosario. Presupuesto oficial: ÍTEM 1 $142.000.000 ÍTEM 2 $103.000.000",
       "reparticion": "Servicio Urbano de Mantenimiento Ambiental Rosario (Sumar)",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 18% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 14% sobre el presupuesto ajustado por inflación (18% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -3648,7 +3618,7 @@
       "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 14% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -3658,7 +3628,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 17% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -3717,8 +3687,8 @@
       "objeto": "Remodelación Av. CASIANO CASAS -Etapa 1 - Dir.Gral.Pavimentos y Calzadas -Sec. de Obras Públicas",
       "reparticion": "Dirección General de Pavimentos y Calzadas",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 17% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 12% sobre el presupuesto ajustado por inflación (17% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -3887,8 +3857,8 @@
       "objeto": "COMPRA ÁGIL - Provisión y alquiler de dispenser de agua a red frio/calor para la Dirección General Administrativa de la Secretaría de Planeamiento.",
       "reparticion": "Secretaría de Planeamiento",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 7% sobre el presupuesto ajustado por inflación (9% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -3968,7 +3938,7 @@
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 10% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -4007,8 +3977,8 @@
       "objeto": "COMPRA AGIL CEMAR BIOMEDICO PARA ESTERILIZACION",
       "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 11% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 9% sobre el presupuesto ajustado por inflación (11% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -4088,7 +4058,7 @@
       "reparticion": "Secretaría de Salud Pública",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 5% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -4177,7 +4147,7 @@
       "objeto": "COMPRA AGIL Nº 10-051-26 CASCOS DE SEGURIDAD TIPO PARAMEDICO -SIES-",
       "reparticion": "SIES (Sistema Integrado de Emergencia Sanitaria)",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 45% sobre el presupuesto oficial",
+      "detalle": "Adjudicado 42% sobre el presupuesto ajustado por inflación (45% nominal)",
       "peso": 3
     },
     {
@@ -4218,7 +4188,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 11% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -4278,7 +4248,7 @@
       "reparticion": "Secretaría de Salud Pública",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -4287,8 +4257,8 @@
       "objeto": "QUÍMICA CLÍNICA. AUTOANALIZADORES QUÍMICA AUTOMATIZADA HECA",
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 15% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 13% sobre el presupuesto ajustado por inflación (15% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -4338,7 +4308,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 25% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -4428,7 +4398,7 @@
       "reparticion": "Maternidad Martín",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 17% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -4518,7 +4488,7 @@
       "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 21% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -4638,7 +4608,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 19% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -4668,7 +4638,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 12% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -4742,16 +4712,6 @@
     },
     {
       "fuente": "rosario",
-      "id": 36811,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36811",
-      "objeto": "COMPRA ÁGIL BIOMEDICOS BLOCK QUIRÚRGICO (HECA)",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "fuente": "rosario",
       "id": 36810,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36810",
       "objeto": "Compra Agil ord 10586/23 Medicamentos y biomédicos varios Secretaria de Salud Pública",
@@ -4777,7 +4737,7 @@
       "objeto": "CAG 199 ARTROPLASTIAS DE CADERA CEMENTADA",
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 30% sobre el presupuesto oficial",
+      "detalle": "Adjudicado 28% sobre el presupuesto ajustado por inflación (30% nominal)",
       "peso": 3
     },
     {
@@ -4827,7 +4787,7 @@
       "objeto": "COMPRA ÁGIL INYECTABLES MAYORES SUEROS Hospital de Emergencias Dr. C.Alvarez",
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 68% sobre el presupuesto oficial",
+      "detalle": "Adjudicado 64% sobre el presupuesto ajustado por inflación (68% nominal)",
       "peso": 3
     },
     {
@@ -4857,8 +4817,8 @@
       "objeto": "COMPRA AGIL Nº 03-085-2026 BIOM BLOCK QUIRUGICO \"Hosp. Vilela\"",
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 8% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 5% sobre el presupuesto ajustado por inflación (8% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -4912,23 +4872,13 @@
     },
     {
       "fuente": "rosario",
-      "id": 36757,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36757",
-      "objeto": "Intervenciones en Pasos a Nivel en la Ciudad de Rosario - D. G. de Pavimentos y Calzadas - Sec. de Obras Públicas",
-      "reparticion": "Dirección General de Pavimentos y Calzadas",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 5% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "fuente": "rosario",
       "id": 36748,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36748",
       "objeto": "COMPRA ÁGIL JABÓN NEUTRO H.E.C.A",
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 11% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -5058,7 +5008,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 19% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -5089,16 +5039,6 @@
       "codigo": "DESIERTA_O_FRACASADA",
       "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
       "peso": 1
-    },
-    {
-      "fuente": "rosario",
-      "id": 36707,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36707",
-      "objeto": "COMPRA AGIL 10-039-2026. ADQUISICION DE INSUNOS DE HEMOTERAPIA. BANCO DE SANGRE.",
-      "reparticion": "Centro Regional de Hemoterapia",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
     },
     {
       "fuente": "rosario",
@@ -5207,8 +5147,8 @@
       "objeto": "Estudio de Suelo La Florida - Sec. de Obras Públicas",
       "reparticion": "Secretaría de Obras Públicas",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 8% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 6% sobre el presupuesto ajustado por inflación (8% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -5218,7 +5158,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 18% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -5238,7 +5178,7 @@
       "reparticion": "Secretaría de Salud Pública",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 23% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -5278,7 +5218,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 5% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -5288,7 +5228,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 23% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -5358,7 +5298,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 12% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -5518,7 +5458,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 17% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -5577,8 +5517,8 @@
       "objeto": "Compra Agil Oftalmológicos Salud Pública",
       "reparticion": "Secretaría de Salud Pública",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 11% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 8% sobre el presupuesto ajustado por inflación (11% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -5652,16 +5592,6 @@
     },
     {
       "fuente": "rosario",
-      "id": 36520,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36520",
-      "objeto": "Compra Agil Específicos 1 Salud Pública",
-      "reparticion": "Secretaría de Salud Pública",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "fuente": "rosario",
       "id": 36518,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36518",
       "objeto": "Compra Agil Biomédicos para infusión Salud Pública",
@@ -5707,8 +5637,8 @@
       "objeto": "CAG 150 ARTROPLASTIA DE CADERA CEMENTADA.",
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 25% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 22% sobre el presupuesto ajustado por inflación (25% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -5767,7 +5697,7 @@
       "objeto": "CAG SABANAS Y ROPA PARA QUIRÓFANO ( H.E.C.A)",
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 41% sobre el presupuesto oficial",
+      "detalle": "Adjudicado 38% sobre el presupuesto ajustado por inflación (41% nominal)",
       "peso": 3
     },
     {
@@ -5777,8 +5707,8 @@
       "objeto": "COMPRA ÁGIL FÓRMULAS PARA ALIMENTACIÓN PARENTERAL Y ENTERAL NORMATIZADAS (HECA)",
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 17% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 14% sobre el presupuesto ajustado por inflación (17% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -5828,7 +5758,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 18% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -5978,7 +5908,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 18% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -6127,18 +6057,8 @@
       "objeto": "Contratación de servicio de recolección, transporte, tratamiento y disposición final de residuos biopatogénicos generados en establecimientos de salud dependientes de la Sec. de Salud Pública de la Municipalidad de Rosario",
       "reparticion": "Secretaría de Salud Pública",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 15% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "fuente": "rosario",
-      "id": 36350,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36350",
-      "objeto": "QUIMICA AUTOMATIZADA ALBERDI \"DIRECCION DE BIOQUIMICA\"",
-      "reparticion": "Dirección de Bioquímica",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 10% sobre el presupuesto ajustado por inflación (15% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -6258,7 +6178,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -6277,8 +6197,8 @@
       "objeto": "COMPRA ÁGIL CEMAR - BIOMEDICOS PARA GASTROSTOMIA",
       "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 18% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 15% sobre el presupuesto ajustado por inflación (18% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -6297,7 +6217,7 @@
       "objeto": "COMPRA AGIL  CEMAR PSICOFARMACOS",
       "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 62% sobre el presupuesto oficial",
+      "detalle": "Adjudicado 58% sobre el presupuesto ajustado por inflación (62% nominal)",
       "peso": 3
     },
     {
@@ -6427,8 +6347,8 @@
       "objeto": "Servicio de seguridad para actividades organizadas por la Secretaría de Cultura y Educación",
       "reparticion": "Secretaría de Cultura y Educación",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 16% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 8% sobre el presupuesto ajustado por inflación (16% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -6548,7 +6468,7 @@
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 14% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -6658,7 +6578,7 @@
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 8% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -6668,7 +6588,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 16% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -6812,16 +6732,6 @@
     },
     {
       "fuente": "rosario",
-      "id": 36163,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36163",
-      "objeto": "COMPRA ÁGIL ORTOPEDIA Y TRAUMATOLOGÍA - PTE: ACOSTA YOSELIN (VILELA)",
-      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 5% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "fuente": "rosario",
       "id": 36159,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36159",
       "objeto": "COMPRA ÁGIL: Productos médicos y descartables para la Farmacia Central de la Dirección de Centros de Salud.",
@@ -6862,16 +6772,6 @@
     },
     {
       "fuente": "rosario",
-      "id": 36152,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36152",
-      "objeto": "COMPRA ÁGIL ESPECÍFICOS NORMATIZADOS (HECA)",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "fuente": "rosario",
       "id": 36151,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36151",
       "objeto": "COMPRA AGIL  CEMAR BIOMEDICO PRA CIRUGIA AMBULATORIA",
@@ -6897,18 +6797,8 @@
       "objeto": "COMPRA ÁGIL - Servicio de mantenimiento de ascensor para la Escuela Municipal de Música \"Juan Bautista Massa\"",
       "reparticion": "Secretaría de Cultura y Educación",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 17% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "fuente": "rosario",
-      "id": 36145,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36145",
-      "objeto": "Servicio de recolección y transporte, tratamiento y disposición final de residuos especiales. Secretaría de Salud Pública",
-      "reparticion": "Secretaría de Salud Pública",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 11% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 13% sobre el presupuesto ajustado por inflación (17% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -6967,8 +6857,8 @@
       "objeto": "COMPRA AGIL  MATERNIDAD MARTIN  FORMULAS NORMATIZADS",
       "reparticion": "Maternidad Martín",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 14% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 10% sobre el presupuesto ajustado por inflación (14% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -6997,8 +6887,8 @@
       "objeto": "COMPRA ÁGIL: Cajas de toallas de papel descartable y rollos de papel higiénico, para la Dirección de Centros de Salud.",
       "reparticion": "APS (S.S.P.)",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 10% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 7% sobre el presupuesto ajustado por inflación (10% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -7057,8 +6947,8 @@
       "objeto": "Servicio de seguridad y vigilancia para la Escuela Municipal de Música \"Juan Bautista Massa\"",
       "reparticion": "Secretaría de Cultura y Educación",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 19% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 10% sobre el presupuesto ajustado por inflación (19% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -7067,18 +6957,8 @@
       "objeto": "Servicio de seguridad y vigilancia para El Jardín de los Niños",
       "reparticion": "Secretaría de Cultura y Educación",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 17% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "fuente": "rosario",
-      "id": 36101,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36101",
-      "objeto": "COMPRA AGIL - MATERNIDAD MARTIN - OFTALMOLÓGICOS",
-      "reparticion": "Maternidad Martín",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 8% sobre el presupuesto ajustado por inflación (17% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -7127,8 +7007,8 @@
       "objeto": "COMPRA AGIL MATERNIDAD MARTIN ANTIINFECCIOSOS",
       "reparticion": "Maternidad Martín",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 16% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 12% sobre el presupuesto ajustado por inflación (16% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -7139,16 +7019,6 @@
       "codigo": "SOBREPRECIO_DETECTADO",
       "detalle": "El propio organismo desestimó ofertas por sobreprecio",
       "peso": 1
-    },
-    {
-      "fuente": "rosario",
-      "id": 36085,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36085",
-      "objeto": "COMPRA AGIL MATERNIDAD MARTIN - DROGAS CARDIOLOGICAS Y CARDIOVASCULARES NORMATIZADAS",
-      "reparticion": "Maternidad Martín",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 5% sobre el presupuesto oficial",
-      "peso": 3
     },
     {
       "fuente": "rosario",
@@ -7198,7 +7068,7 @@
       "reparticion": "Maternidad Martín",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 5% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -7208,7 +7078,7 @@
       "reparticion": "Maternidad Martín",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 23% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -7358,7 +7228,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 12% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -7367,8 +7237,8 @@
       "objeto": "COMPRA ÁGIL: Bolsas de Nylom para bobina de arranque y para residuos patológicos",
       "reparticion": "APS (S.S.P.)",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 15% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 11% sobre el presupuesto ajustado por inflación (15% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -7428,7 +7298,7 @@
       "reparticion": "Secretaría de Salud Pública",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -7438,7 +7308,7 @@
       "reparticion": "Maternidad Martín",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 21% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -7448,7 +7318,7 @@
       "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 17% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -7468,7 +7338,7 @@
       "reparticion": "Maternidad Martín",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 10% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -7509,16 +7379,6 @@
       "codigo": "UNICA_OFERTA",
       "detalle": "Se adjudicó con una sola oferta",
       "peso": 2
-    },
-    {
-      "fuente": "rosario",
-      "id": 35922,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35922",
-      "objeto": "Ejecución y mantenimiento de la señalización horizontal con material termoplastico para la Dir. Gral. de Señalización - Secretaria de Ambiente y Espacio Publico.-",
-      "reparticion": "Dirección General de Señalización",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
     },
     {
       "fuente": "rosario",
@@ -7567,7 +7427,7 @@
       "objeto": "ESPECIFICOS 3 - Compra Agil - Ord.10586/23- Secr. Salud Pública",
       "reparticion": "Secretaría de Salud Pública",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 127% sobre el presupuesto oficial",
+      "detalle": "Adjudicado 121% sobre el presupuesto ajustado por inflación (127% nominal)",
       "peso": 3
     },
     {
@@ -7667,8 +7527,8 @@
       "objeto": "COMPRA ÁGIL BIOMÉDICOS HILOS Y SUTURAS (VILELA).",
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 34% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 18% sobre el presupuesto ajustado por inflación (34% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -7737,8 +7597,8 @@
       "objeto": "Contratación de 650(Seiscientos cincuenta) habitaciones en hoteles 4 estrellas o superior, con comida incluida para hospedar delegaciones deportivas para la Dir. de Deporte Federado - Secretaria de Deporte y Turismo.-",
       "reparticion": "Secretaría de Deporte y Turismo",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 17% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 10% sobre el presupuesto ajustado por inflación (17% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -7868,7 +7728,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 15% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8027,8 +7887,8 @@
       "objeto": "COMPRA ÁGIL: Psicofármacos y drogas que actúan sobre el sistema nervioso central.",
       "reparticion": "APS (S.S.P.)",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 18% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 15% sobre el presupuesto ajustado por inflación (18% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8058,7 +7918,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 14% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8088,7 +7948,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 15% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8207,8 +8067,8 @@
       "objeto": "COMPRA AGIL M.MARTIN BIOMEDICO DE USO NORMATIZADO",
       "reparticion": "Maternidad Martín",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 21% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 18% sobre el presupuesto ajustado por inflación (21% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8228,7 +8088,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8238,7 +8098,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8278,7 +8138,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8288,7 +8148,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 21% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8358,7 +8218,7 @@
       "reparticion": "Secretaría de Salud Pública",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 17% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8408,7 +8268,7 @@
       "reparticion": "Instituto del Alimento Dr. Benjamín Berisso",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 21% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8498,7 +8358,7 @@
       "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 10% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8548,7 +8408,7 @@
       "reparticion": "Instituto del Alimento Dr. Benjamín Berisso",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 11% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8638,7 +8498,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8658,7 +8518,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 13% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8842,23 +8702,13 @@
     },
     {
       "fuente": "rosario",
-      "id": 35552,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35552",
-      "objeto": "COMPRA ÁGIL: Especialidades medicinales.",
-      "reparticion": "APS (S.S.P.)",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "fuente": "rosario",
       "id": 35550,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35550",
       "objeto": "MEDICAMENTOS DE ALTO COSTO - PACBI (TENECTEPLASA 5000 UI FCO AMPOLLA)",
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 19% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 16% sobre el presupuesto ajustado por inflación (19% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8878,7 +8728,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 10% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8888,7 +8738,7 @@
       "reparticion": "Maternidad Martín",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 12% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -8928,7 +8778,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9158,7 +9008,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 8% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9168,7 +9018,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 18% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9178,7 +9028,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 14% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9198,7 +9048,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9318,7 +9168,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9328,7 +9178,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 14% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9338,7 +9188,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 18% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9378,7 +9228,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 19% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9412,16 +9262,6 @@
     },
     {
       "fuente": "rosario",
-      "id": 35278,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35278",
-      "objeto": "KITS DESCARTABLES Y SOLUCIÓN ACD- BANCO DE SANGRE",
-      "reparticion": "Centro Regional de Hemoterapia",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "fuente": "rosario",
       "id": 35263,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35263",
       "objeto": "Provisión e instalación de un equipo de aire acondicionado tipo split piso-techo 6 tr f/c inverter",
@@ -9448,7 +9288,7 @@
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 13% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9518,7 +9358,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 11% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9538,7 +9378,7 @@
       "reparticion": "Secretaría de Salud Pública",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 20% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9638,7 +9478,7 @@
       "reparticion": "APS (S.S.P.)",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9698,7 +9538,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 5% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9707,8 +9547,8 @@
       "objeto": "COMPRA AIRE ACONDICIONADO LABORATORIO H.R.S.P",
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 20% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 17% sobre el presupuesto ajustado por inflación (20% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9737,8 +9577,8 @@
       "objeto": "BIOMÉDICOS DE USO GENERAL (HECA)",
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 27% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 23% sobre el presupuesto ajustado por inflación (27% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9798,7 +9638,7 @@
       "reparticion": "Centro Regional de Hemoterapia",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 11% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9808,7 +9648,7 @@
       "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9847,7 +9687,7 @@
       "objeto": "Carpeta Asfáltica, reciclado y renovación de calzadas en la ciudad de Rosario - Dir. Gral. de Pavimentos y Calzadas - Sec. de Obras Públicas",
       "reparticion": "Dirección General de Pavimentos y Calzadas",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 108% sobre el presupuesto oficial",
+      "detalle": "Adjudicado 97% sobre el presupuesto ajustado por inflación (108% nominal)",
       "peso": 3
     },
     {
@@ -9858,7 +9698,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 10% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -9938,7 +9778,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10047,7 +9887,7 @@
       "objeto": "RADIOFRECUENCIA Y TORNILLOS HERBERT (H.E.C.A)",
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 60% sobre el presupuesto oficial",
+      "detalle": "Adjudicado 56% sobre el presupuesto ajustado por inflación (60% nominal)",
       "peso": 3
     },
     {
@@ -10118,7 +9958,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10147,7 +9987,7 @@
       "objeto": "Productos biomédicos.",
       "reparticion": "APS (S.S.P.)",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 43% sobre el presupuesto oficial",
+      "detalle": "Adjudicado 40% sobre el presupuesto ajustado por inflación (43% nominal)",
       "peso": 3
     },
     {
@@ -10167,8 +10007,8 @@
       "objeto": "Servicio de seguridad y vigilancia para el Centro de Expresiones Contemporáneas",
       "reparticion": "Secretaría de Cultura y Educación",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 20% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 14% sobre el presupuesto ajustado por inflación (20% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10298,7 +10138,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10328,7 +10168,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 22% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10377,8 +10217,8 @@
       "objeto": "Biomédicos de uso normatizado.",
       "reparticion": "APS (S.S.P.)",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 14% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 11% sobre el presupuesto ajustado por inflación (14% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10398,7 +10238,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 8% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10458,7 +10298,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 12% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10468,7 +10308,7 @@
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10508,7 +10348,7 @@
       "reparticion": "Instituto del Alimento Dr. Benjamín Berisso",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 19% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10537,8 +10377,8 @@
       "objeto": "Contratación de SERVICIO DE CATERING HOSPITALARIO destinado a los establecimientos de salud dependientes de la Secretaria de Salud Publica, Secretaría de Desarrollo Humano y Hábitat y otras dependencias de la Municipalidad de Rosario.-",
       "reparticion": "Secretaría de Salud Pública",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 17% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 11% sobre el presupuesto ajustado por inflación (17% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10628,7 +10468,7 @@
       "reparticion": "Servicio Público de la Vivienda y el Hábitat",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 8% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10668,7 +10508,7 @@
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 19% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10678,7 +10518,7 @@
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 11% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10749,16 +10589,6 @@
       "codigo": "UNICA_OFERTA",
       "detalle": "Se adjudicó con una sola oferta",
       "peso": 2
-    },
-    {
-      "fuente": "rosario",
-      "id": 34661,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/34661",
-      "objeto": "DROGAS DE TRACTO ALIMENTARIO Y METABOLISMO NORMATIZADAS (H.E.C.A)",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
     },
     {
       "fuente": "rosario",
@@ -10836,16 +10666,6 @@
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/34635",
       "objeto": "PROVISIÓN DE GASES MEDICINALES PARA LOS EFECTORES DE LA RED DEPENDIENTES DE LA SECRETARIA DE SALUD PUBLICA.-",
       "reparticion": "Secretaría de Salud Pública",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 17% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "fuente": "rosario",
-      "id": 34635,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/34635",
-      "objeto": "PROVISIÓN DE GASES MEDICINALES PARA LOS EFECTORES DE LA RED DEPENDIENTES DE LA SECRETARIA DE SALUD PUBLICA.-",
-      "reparticion": "Secretaría de Salud Pública",
       "codigo": "DESIERTA_O_FRACASADA",
       "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
       "peso": 1
@@ -10857,8 +10677,8 @@
       "objeto": "ESTUDIO DE MICROORGANISMOS CEMAR DETERMINACIONES",
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 6% sobre el presupuesto ajustado por inflación (9% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10877,7 +10697,7 @@
       "objeto": "CEMAR PINZA BETTOCHI",
       "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 53% sobre el presupuesto oficial",
+      "detalle": "Adjudicado 50% sobre el presupuesto ajustado por inflación (53% nominal)",
       "peso": 3
     },
     {
@@ -10887,8 +10707,8 @@
       "objeto": "Adquisición de Niveladora de Piso - Dir. Gral de Arquitectura - Sec. de Obras Públicas",
       "reparticion": "Dirección General de Arquitectura (Sec. Obras Públicas)",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 20% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 12% sobre el presupuesto ajustado por inflación (20% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10958,7 +10778,7 @@
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -10967,7 +10787,7 @@
       "objeto": "DROGAS DE TRACTO ALIMENTARIO Y METABOLISMO NORMATIZADAS (HECA)",
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 59% sobre el presupuesto oficial",
+      "detalle": "Adjudicado 55% sobre el presupuesto ajustado por inflación (59% nominal)",
       "peso": 3
     },
     {
@@ -11028,7 +10848,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -11087,8 +10907,8 @@
       "objeto": "AGITADORES DE EXTRACCION AUTOMATICOS CON BALANZA - BANCO DE SANGRE",
       "reparticion": "Centro Regional de Hemoterapia",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 18% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 15% sobre el presupuesto ajustado por inflación (18% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -11127,7 +10947,7 @@
       "objeto": "Contratación de la Reparación, Suministro de Repuestos y Servicio Anual de Conservación del Ascensor del CMD NORTE - VILLA HORTENSIA, dependiente de la Sec. de Cercanía y Gestión Ciudadana",
       "reparticion": "Centro Municipal de Distrito Norte \"Villa Hortensia\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 39% sobre el presupuesto oficial",
+      "detalle": "Adjudicado 32% sobre el presupuesto ajustado por inflación (39% nominal)",
       "peso": 3
     },
     {
@@ -11178,7 +10998,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -11188,7 +11008,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 19% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -11238,7 +11058,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 15% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -11288,7 +11108,7 @@
       "reparticion": "Hospital \"Dr. Juan Bautista Alberdi\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 10% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -11338,7 +11158,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 12% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -11368,7 +11188,7 @@
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -11457,8 +11277,8 @@
       "objeto": "PRUEBAS DE RESISTENCIA A LA TUBERCULOSIS",
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 8% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 5% sobre el presupuesto ajustado por inflación (8% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -11487,8 +11307,8 @@
       "objeto": "ANTICOAGULANTES - TRANEXÁMICO ÁCIDO INY (HECA)",
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 16% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 13% sobre el presupuesto ajustado por inflación (16% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -11497,8 +11317,8 @@
       "objeto": "ANALGÉSICOS - NALOXONA INY (HECA)",
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 28% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 25% sobre el presupuesto ajustado por inflación (28% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -11728,7 +11548,7 @@
       "reparticion": "Hospital Municipal de Salud Animal (ex IMuSA)",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 14% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -11748,7 +11568,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 20% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -11902,16 +11722,6 @@
     },
     {
       "fuente": "rosario",
-      "id": 34083,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/34083",
-      "objeto": "Explotación comercial bajo el rubro bar/restaurante y bar con difusión musical ubicado en Eudoro Carrasco 2272 (LOCAL 4) en la Rambla Catalunya de la Ciudad de Rosario",
-      "reparticion": "Empresa del Estado Municipal \"Costanera Rosario\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 26% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "fuente": "rosario",
       "id": 34081,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/34081",
       "objeto": "Contratación de servicios de impresión y digitalización para los servicios de Internación Domiciliaria y Dirección de Salud Bucal.-",
@@ -11978,7 +11788,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 24% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -12018,7 +11828,7 @@
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -12037,8 +11847,8 @@
       "objeto": "PANELES RESPIRATORIOS - BIOQUÍMICA",
       "reparticion": "Dirección de Bioquímica",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 8% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 6% sobre el presupuesto ajustado por inflación (8% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -12118,7 +11928,7 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 22% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -12137,8 +11947,8 @@
       "objeto": "Adquisición de pintura impermeabilizante para el Anfiteatro Municipal Humberto de Nito",
       "reparticion": "Secretaría de Cultura y Educación",
       "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 12% sobre el presupuesto oficial",
-      "peso": 3
+      "detalle": "Adjudicado 10% sobre el presupuesto ajustado por inflación (12% nominal)",
+      "peso": 1
     },
     {
       "fuente": "rosario",
@@ -12158,7 +11968,7 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 8% sobre el presupuesto oficial",
-      "peso": 3
+      "peso": 1
     },
     {
       "fuente": "rosario",

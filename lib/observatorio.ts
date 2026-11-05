@@ -34,7 +34,7 @@ export type Observatorio = {
 }
 
 export const SENALES: Record<string, { titulo: string; explicacion: string }> = {
-  SOBRE_PRESUPUESTO: { titulo: 'Sobre presupuesto', explicacion: 'Adjudicado más de 5% por encima del presupuesto oficial.' },
+  SOBRE_PRESUPUESTO: { titulo: 'Sobre presupuesto', explicacion: 'Adjudicado más de 5% por encima del presupuesto oficial, ajustado por IPC (INDEC) al mes de adjudicación.' },
   UNICA_OFERTA: { titulo: 'Única oferta', explicacion: 'Se adjudicó con una sola oferta: poca competencia.' },
   POSIBLE_FRACCIONAMIENTO: { titulo: 'Posible fraccionamiento', explicacion: 'Tres o más compras ágiles parecidas en 30 días en la misma repartición.' },
   PLAZO_CORTO: { titulo: 'Plazo corto', explicacion: 'Menos de 3 días entre publicación y apertura.' },

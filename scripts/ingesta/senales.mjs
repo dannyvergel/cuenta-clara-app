@@ -22,6 +22,20 @@ for (const r of R.filter((x) => x.fuente === 'rosario')) {
   r.monto_adjudicado = r.adjudicatarios.some((a) => a.monto) ? r.adjudicatarios.reduce((s, a) => s + (a.monto ?? 0), 0) : null
 }
 
+// IPC mensual (datos/ipc.json, de scripts/ingesta/ipc.mjs). Meses fuera de la serie usan el extremo más cercano.
+const IPC = fs.existsSync('datos/ipc.json') ? JSON.parse(fs.readFileSync('datos/ipc.json', 'utf8')).serie : null
+const MESES = IPC ? Object.keys(IPC).sort() : []
+const ipc = (fecha) => {
+  const m = String(fecha ?? '').slice(0, 7)
+  if (!IPC || !/^\d{4}-\d{2}$/.test(m)) return null
+  return IPC[m] ?? (m < MESES[0] ? IPC[MESES[0]] : IPC[MESES.at(-1)])
+}
+// Factor para llevar el presupuesto (mes de publicación) al mes de la adjudicación.
+const inflacion = (r) => {
+  const a = ipc(r.fecha_publicacion), b = ipc(r.fecha_resolucion ?? r.fecha_apertura ?? r.fecha_publicacion)
+  return a && b && b >= a ? b / a : 1
+}
+
 const dias = (a, b) => (a && b ? (new Date(b) - new Date(a)) / 864e5 : null)
 const normal = (s) => (s ?? '').toUpperCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^A-Z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim()
 const clave = (s) => normal(s).split(' ').filter((w) => w.length > 3).slice(0, 4).join(' ')
@@ -33,8 +47,14 @@ for (const r of R) {
   const txt = r.resultado ?? ''
   if (/[uú]nic[oa] (oferente|oferta)/i.test(txt) || (r.numero_oferentes === 1 && r.estado === 'Adjudicada')) add(r, 'UNICA_OFERTA', 'Se adjudicó con una sola oferta', 2)
   // Más de 3x el presupuesto casi siempre es presupuesto cargado por ítem o mal parseado: no se marca.
-  if (r.presupuesto_oficial && r.monto_adjudicado > r.presupuesto_oficial * 1.05 && r.monto_adjudicado <= r.presupuesto_oficial * 3)
-    add(r, 'SOBRE_PRESUPUESTO', `Adjudicado ${Math.round((r.monto_adjudicado / r.presupuesto_oficial - 1) * 100)}% sobre el presupuesto oficial`, 3)
+  // Se compara contra el presupuesto ajustado por IPC al mes de adjudicación: con inflación alta, lo nominal engaña.
+  if (r.presupuesto_oficial && r.monto_adjudicado) {
+    const f = inflacion(r), ajustado = r.presupuesto_oficial * f
+    if (r.monto_adjudicado > ajustado * 1.05 && r.monto_adjudicado <= ajustado * 3) {
+      const real = Math.round((r.monto_adjudicado / ajustado - 1) * 100), nominal = Math.round((r.monto_adjudicado / r.presupuesto_oficial - 1) * 100)
+      add(r, 'SOBRE_PRESUPUESTO', f > 1.01 ? `Adjudicado ${real}% sobre el presupuesto ajustado por inflación (${nominal}% nominal)` : `Adjudicado ${real}% sobre el presupuesto oficial`, real > 25 ? 3 : 1)
+    }
+  }
   const plazo = dias(r.fecha_publicacion, r.fecha_apertura)
   if (plazo !== null && plazo < 3 && /Licitaci/.test(r.tipo ?? '')) add(r, 'PLAZO_CORTO', `Solo ${Math.max(0, Math.round(plazo))} días entre publicación y apertura`, 2)
   for (const a of r.adjudicatarios ?? []) if (a.cuit && a.cuit_valido === false) add(r, 'CUIT_INVALIDO', `CUIT ${a.cuit} con dígito verificador inválido`, 3)

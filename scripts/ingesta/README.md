@@ -32,12 +32,13 @@ node scripts/ingesta/senales.mjs datos/mendoza.jsonl --salida datos/observatorio
 
 Cada jurisdicción tiene su propio observatorio (`/observatorio?fuente=mendoza`): no se suman montos
 de un municipio con los de una provincia. El portal publica con atraso (último paquete: enero 2026).
-`UNICA_OFERTA` sale del campo `numberOfTenderers`. `SOBRE_PRESUPUESTO` en Mendoza está inflado por la
-inflación entre el presupuesto y la adjudicación: falta deflactar con IPC.
+`UNICA_OFERTA` sale del campo `numberOfTenderers`. Aun ajustado por IPC, ~25% de los procesos
+de Mendoza se adjudican por encima del presupuesto: parece subestimación sistemática del presupuesto.
 
 ## Señales (indicios para mirar, no acusaciones)
 
-- `SOBRE_PRESUPUESTO`: adjudicado más de 5% sobre el presupuesto oficial.
+- `SOBRE_PRESUPUESTO`: adjudicado más de 5% sobre el presupuesto oficial llevado por IPC (INDEC) al mes de
+  adjudicación. Peso alto si supera 25% real. Actualizá el IPC con `node scripts/ingesta/ipc.mjs` (guarda `datos/ipc.json`).
 - `UNICA_OFERTA`: adjudicación con una sola oferta.
 - `POSIBLE_FRACCIONAMIENTO`: 3 o más compras ágiles parecidas en 30 días en la misma repartición.
 - `PLAZO_CORTO`: menos de 3 días entre publicación y apertura en licitaciones.
