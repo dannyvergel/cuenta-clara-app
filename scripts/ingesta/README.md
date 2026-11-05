@@ -35,6 +35,23 @@ de un municipio con los de una provincia. El portal publica con atraso (último 
 `UNICA_OFERTA` sale del campo `numberOfTenderers`. Aun ajustado por IPC, ~25% de los procesos
 de Mendoza se adjudican por encima del presupuesto: parece subestimación sistemática del presupuesto.
 
+## Nación: COMPR.AR
+
+Tercer conector: `comprar.mjs`. Une los CSV de Convocatorias (presupuesto, fechas, objeto) y Adjudicaciones
+(proveedor, CUIT, orden de compra, monto) del dataset "Sistema de Contrataciones Electrónicas" de datos.gob.ar
+por número de procedimiento. **datos.gob.ar no responde desde el exterior: correrlo desde Argentina.**
+
+```powershell
+node scripts/ingesta/comprar.mjs --desde 2024
+node scripts/ingesta/senales.mjs datos/comprar.jsonl --salida datos/observatorio-comprar.json
+```
+
+Los CSV quedan en `datos/crudo/` y `datos/comprar.jsonl` no se versiona (es grande); solo se sube
+`datos/observatorio-comprar.json`. COMPR.AR no publica cantidad de oferentes, así que no hay `UNICA_OFERTA`;
+en cambio marca `DIRECTA_POR_EXCEPCION` (urgencia, emergencia, exclusividad, especialidad). CUIT con largo
+distinto de 11 dígitos se toma como error de carga (`cuit_formato: irregular`), no como señal. Montos en
+moneda extranjera no se suman (`otra_moneda`).
+
 ## Señales (indicios para mirar, no acusaciones)
 
 - `SOBRE_PRESUPUESTO`: adjudicado más de 5% sobre el presupuesto oficial llevado por IPC (INDEC) al mes de

@@ -36,7 +36,8 @@ export type Observatorio = {
 export const SENALES: Record<string, { titulo: string; explicacion: string }> = {
   SOBRE_PRESUPUESTO: { titulo: 'Sobre presupuesto', explicacion: 'Adjudicado más de 5% por encima del presupuesto oficial, ajustado por IPC (INDEC) al mes de adjudicación.' },
   UNICA_OFERTA: { titulo: 'Única oferta', explicacion: 'Se adjudicó con una sola oferta: poca competencia.' },
-  POSIBLE_FRACCIONAMIENTO: { titulo: 'Posible fraccionamiento', explicacion: 'Tres o más compras ágiles parecidas en 30 días en la misma repartición.' },
+  POSIBLE_FRACCIONAMIENTO: { titulo: 'Posible fraccionamiento', explicacion: 'Tres o más compras chicas (ágiles o por monto) parecidas en 30 días en la misma repartición.' },
+  DIRECTA_POR_EXCEPCION: { titulo: 'Directa por excepción', explicacion: 'Contratación directa por urgencia, emergencia, exclusividad o especialidad: sin competencia abierta.' },
   PLAZO_CORTO: { titulo: 'Plazo corto', explicacion: 'Menos de 3 días entre publicación y apertura.' },
   CUIT_INVALIDO: { titulo: 'CUIT inválido', explicacion: 'El CUIT del adjudicatario no pasa el dígito verificador.' },
   SOBREPRECIO_DETECTADO: { titulo: 'Sobreprecio reportado', explicacion: 'El propio organismo desestimó ofertas por sobreprecio.' },
@@ -46,6 +47,7 @@ export const SENALES: Record<string, { titulo: string; explicacion: string }> = 
 export const FUENTES: Record<string, { nombre: string; origen: string }> = {
   rosario: { nombre: 'Municipalidad de Rosario', origen: 'las fichas oficiales de rosario.gob.ar' },
   mendoza: { nombre: 'Gobierno de Mendoza', origen: 'los datos abiertos OCDS de COMPR.AR Mendoza' },
+  comprar: { nombre: 'Nación (COMPR.AR)', origen: 'los datos abiertos de COMPR.AR en datos.gob.ar' },
 }
 
 // Cada jurisdicción tiene su propio archivo: no se mezclan montos de un municipio con los de una provincia.

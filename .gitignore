@@ -18,3 +18,8 @@ tsconfig.tsbuildinfo
 
 # Logs locales de los agentes
 logs/
+.vercel
+
+# Crudos de ingesta (CSV grandes) y el JSONL nacional, que se regenera
+datos/crudo/
+datos/comprar.jsonl

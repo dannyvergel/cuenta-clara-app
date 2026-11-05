@@ -58,13 +58,17 @@ for (const r of R) {
   const plazo = dias(r.fecha_publicacion, r.fecha_apertura)
   if (plazo !== null && plazo < 3 && /Licitaci/.test(r.tipo ?? '')) add(r, 'PLAZO_CORTO', `Solo ${Math.max(0, Math.round(plazo))} días entre publicación y apertura`, 2)
   for (const a of r.adjudicatarios ?? []) if (a.cuit && a.cuit_valido === false) add(r, 'CUIT_INVALIDO', `CUIT ${a.cuit} con dígito verificador inválido`, 3)
+  // Directas por excepción (urgencia, emergencia, exclusividad, especialidad): saltean la competencia.
+  const ap = r.apartado_directa ?? ''
+  if (r.estado === 'Adjudicada' && /urgencia|emergencia|exclusividad|especialidad|proveedor [uú]nico/i.test(ap)) add(r, 'DIRECTA_POR_EXCEPCION', `Contratación directa por excepción: ${ap}`, 2)
   if (/sobreprecio/i.test(txt)) add(r, 'SOBREPRECIO_DETECTADO', 'El propio organismo desestimó ofertas por sobreprecio', 1)
   if (/(desiert|fracasad)/i.test(txt) || /(Desierta|Fracasada)/.test(r.estado ?? '')) add(r, 'DESIERTA_O_FRACASADA', 'Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado', 1)
 }
 
 // Fraccionamiento: muchas compras ágiles del mismo objeto y repartición en 30 días.
 const grupos = new Map()
-for (const r of R.filter((x) => /Agil/i.test(x.tipo ?? '') && x.fecha_apertura)) {
+// Compras chicas: compra ágil (Rosario) o compulsa abreviada por monto (COMPR.AR).
+for (const r of R.filter((x) => (/Agil/i.test(x.tipo ?? '') || /por monto/i.test(x.apartado_directa ?? '')) && x.fecha_apertura)) {
   const k = `${r.reparticion}|${clave(r.objeto)}`
   if (!grupos.has(k)) grupos.set(k, [])
   grupos.get(k).push(r)
@@ -73,7 +77,7 @@ for (const [, g] of grupos) {
   g.sort((a, b) => a.fecha_apertura.localeCompare(b.fecha_apertura))
   for (let i = 0; i < g.length; i++) {
     const ventana = g.filter((x) => { const d = dias(g[i].fecha_apertura, x.fecha_apertura); return d >= 0 && d <= 30 })
-    if (ventana.length >= 3) { add(g[i], 'POSIBLE_FRACCIONAMIENTO', `${ventana.length} compras ágiles parecidas en 30 días en la misma repartición`, 2); break }
+    if (ventana.length >= 3) { add(g[i], 'POSIBLE_FRACCIONAMIENTO', `${ventana.length} compras chicas parecidas en 30 días en la misma repartición`, 2); break }
   }
 }
 
@@ -111,7 +115,8 @@ const json = JSON.stringify({
   por_fuente: cuenta((r) => r.fuente),
   por_tipo: cuenta((r) => r.tipo), por_estado: cuenta((r) => r.estado), por_reparticion: cuenta((r) => r.reparticion).slice(0, 15),
   senales_por_codigo: Object.entries(senales.reduce((m, s) => ((m[s.codigo] = (m[s.codigo] ?? 0) + 1), m), {})),
-  senales, concentracion, proveedores: proveedores.slice(0, 50),
+  // El listado se recorta a las 5.000 de más peso para que la página no cargue un JSON enorme; los conteos son totales.
+  senales: [...senales].sort((a, b) => b.peso - a.peso).slice(0, 5000), concentracion, proveedores: proveedores.slice(0, 50),
 }, null, 2)
 if (SALIDA) fs.writeFileSync(SALIDA, json + '\n', 'utf8')
 else console.log(json)
