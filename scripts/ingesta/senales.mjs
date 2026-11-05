@@ -31,7 +31,8 @@ const add = (r, codigo, detalle, peso = 1) => senales.push({ id: r.id_fuente, ur
 for (const r of R) {
   const txt = r.resultado ?? ''
   if (/[uú]nic[oa] (oferente|oferta)/i.test(txt)) add(r, 'UNICA_OFERTA', 'Se adjudicó con una sola oferta', 2)
-  if (r.presupuesto_oficial && r.monto_adjudicado > r.presupuesto_oficial * 1.05)
+  // Más de 3x el presupuesto casi siempre es presupuesto cargado por ítem o mal parseado: no se marca.
+  if (r.presupuesto_oficial && r.monto_adjudicado > r.presupuesto_oficial * 1.05 && r.monto_adjudicado <= r.presupuesto_oficial * 3)
     add(r, 'SOBRE_PRESUPUESTO', `Adjudicado ${Math.round((r.monto_adjudicado / r.presupuesto_oficial - 1) * 100)}% sobre el presupuesto oficial`, 3)
   const plazo = dias(r.fecha_publicacion, r.fecha_apertura)
   if (plazo !== null && plazo < 3 && /Licitaci/.test(r.tipo ?? '')) add(r, 'PLAZO_CORTO', `Solo ${Math.max(0, Math.round(plazo))} días entre publicación y apertura`, 2)
@@ -70,12 +71,13 @@ for (const [rep, m] of porRep) {
   for (const [prov, p] of m) if (p.n >= 3 && p.monto / total > 0.4) concentracion.push({ reparticion: rep, proveedor: prov, share: +(p.monto / total).toFixed(2), adjudicaciones: p.n, monto: p.monto })
 }
 
-// Ranking de proveedores.
+// Ranking de proveedores: agrupa por razón social normalizada (EDECA S.A = EDECA SA).
+const claveProv = (a) => normal(a.nombre).replace(/\b(S ?A|S ?R ?L|S ?A ?S|SOCIEDAD ANONIMA)\b/g, '').replace(/\s+/g, ' ').trim()
 const prov = new Map()
 for (const r of R) for (const a of r.adjudicatarios ?? []) {
-  const p = prov.get(a.nombre) ?? { proveedor: a.nombre, cuit: a.cuit, monto: 0, adjudicaciones: 0, reparticiones: new Set() }
+  const p = prov.get(claveProv(a)) ?? { proveedor: a.nombre, cuit: a.cuit, monto: 0, adjudicaciones: 0, reparticiones: new Set() }
   p.monto += a.monto ?? 0; p.adjudicaciones++; p.reparticiones.add(r.reparticion); p.cuit ??= a.cuit
-  prov.set(a.nombre, p)
+  prov.set(claveProv(a), p)
 }
 const proveedores = [...prov.values()].map((p) => ({ ...p, reparticiones: p.reparticiones.size })).sort((a, b) => b.monto - a.monto)
 

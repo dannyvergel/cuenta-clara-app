@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T02:14:21.544Z",
+  "generado": "2026-11-05T09:51:21.529Z",
   "contrataciones": 4609,
   "adjudicadas": 3364,
   "monto_adjudicado": 124219857582.50993,
@@ -128,7 +128,7 @@
     ],
     [
       "SOBRE_PRESUPUESTO",
-      256
+      240
     ],
     [
       "UNICA_OFERTA",
@@ -674,15 +674,6 @@
       "codigo": "SOBREPRECIO_DETECTADO",
       "detalle": "El propio organismo desestimó ofertas por sobreprecio",
       "peso": 1
-    },
-    {
-      "id": 35648,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35648",
-      "objeto": "COMPRA ÁGIL 10-001-26 / INSTITUTO DEL ALIMENTO- INSUMOS DE LABORATORIO",
-      "reparticion": "Instituto del Alimento Dr. Benjamín Berisso",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 400% sobre el presupuesto oficial",
-      "peso": 3
     },
     {
       "id": 38579,
@@ -1871,15 +1862,6 @@
       "codigo": "UNICA_OFERTA",
       "detalle": "Se adjudicó con una sola oferta",
       "peso": 2
-    },
-    {
-      "id": 37916,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37916",
-      "objeto": "COMPRA AGIL CEMAR BIOMEDICO DE USO NORMATIZADO",
-      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 219% sobre el presupuesto oficial",
-      "peso": 3
     },
     {
       "id": 37916,
@@ -3790,15 +3772,6 @@
       "peso": 1
     },
     {
-      "id": 37217,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37217",
-      "objeto": "Bacheo asfáltico en pequeñas superficies en la ciudad de Rosario. Zonas Sur-Suroeste, Norte-Noroeste y Centro-Oeste - D. G. Pavimentos y Calzadas P.O: $2.066.403.595,46 - Por cada Zona",
-      "reparticion": "Dirección General de Pavimentos y Calzadas",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 222% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
       "id": 37211,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37211",
       "objeto": "CAG BOLSAS Y POLIETILENOS H.E.C.A",
@@ -4076,15 +4049,6 @@
       "codigo": "DESIERTA_O_FRACASADA",
       "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
       "peso": 1
-    },
-    {
-      "id": 37107,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37107",
-      "objeto": "MEDICAMENTOS DE ALTO COSTO - PACBI -TENECTEPLASA AMP (HECA)",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 37705% sobre el presupuesto oficial",
-      "peso": 3
     },
     {
       "id": 37103,
@@ -5758,15 +5722,6 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 89% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 36412,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36412",
-      "objeto": "ARTÍCULOS DE LIBRERÍA",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 248% sobre el presupuesto oficial",
       "peso": 3
     },
     {
@@ -7669,15 +7624,6 @@
       "peso": 1
     },
     {
-      "id": 35628,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35628",
-      "objeto": "COMPRA AGIL CEMAR INYECTABLES MAYORES",
-      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 107615% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
       "id": 35622,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35622",
       "objeto": "COMPRA ÁGIL - INMUNOMODULADORES ESPECÍFICOS - MATERNIDAD MARTIN",
@@ -8731,15 +8677,6 @@
       "peso": 1
     },
     {
-      "id": 35165,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35165",
-      "objeto": "BIOMEDICOS PARA NEUROCIRUGÍA - PTE: ESCOBAR ALEXANDER (VILELA)",
-      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 538% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
       "id": 35144,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35144",
       "objeto": "Monitoreo de alarma para Centros de Salud.",
@@ -8803,15 +8740,6 @@
       "peso": 3
     },
     {
-      "id": 35118,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35118",
-      "objeto": "CLAVO ENDOMEDULAR PARA ARTROSIS Y HUMERO PROXIMAL",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 894% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
       "id": 35117,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35117",
       "objeto": "COMPRA AIRE ACONDICIONADO LABORATORIO H.R.S.P",
@@ -8855,24 +8783,6 @@
       "codigo": "SOBREPRECIO_DETECTADO",
       "detalle": "El propio organismo desestimó ofertas por sobreprecio",
       "peso": 1
-    },
-    {
-      "id": 35085,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35085",
-      "objeto": "ANTIINFECCIOSOS DE VIA DE EXCEPCION _AZTREONAM_CEFTAZIDIMA+AVIBACTAM_LINEZOLID",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 820% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 35083,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35083",
-      "objeto": "ANTIINFECCIOSOS DE USO NORMATIZADO (HECA)",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 891% sobre el presupuesto oficial",
-      "peso": 3
     },
     {
       "id": 35080,
@@ -9017,15 +8927,6 @@
       "codigo": "DESIERTA_O_FRACASADA",
       "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
       "peso": 1
-    },
-    {
-      "id": 35017,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35017",
-      "objeto": "PLACAS FEMUR DISTAL Y HUMERO PROXIMAL.",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 951% sobre el presupuesto oficial",
-      "peso": 3
     },
     {
       "id": 35015,
@@ -9628,15 +9529,6 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 26% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 34750,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/34750",
-      "objeto": "SET DE PLACAS ANATOMICAS DE FEMUR Y HUMERO",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 889% sobre el presupuesto oficial",
       "peso": 3
     },
     {
@@ -10387,15 +10279,6 @@
       "peso": 1
     },
     {
-      "id": 34346,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/34346",
-      "objeto": "TORNILLOS HERBERT Y SET DE MICRO OSTEOSINTESIS",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 296% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
       "id": 34342,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/34342",
       "objeto": "Remodelación consultorios del Centro de Salud Roque Coulin - Etapa 2",
@@ -10403,15 +10286,6 @@
       "codigo": "DESIERTA_O_FRACASADA",
       "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
       "peso": 1
-    },
-    {
-      "id": 34339,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/34339",
-      "objeto": "CEMAR PROVISION DE AIRE ACONDICIONADO",
-      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 1272% sobre el presupuesto oficial",
-      "peso": 3
     },
     {
       "id": 34331,
@@ -10747,15 +10621,6 @@
       "peso": 1
     },
     {
-      "id": 34130,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/34130",
-      "objeto": "CONCURSO Nº 229: BIOMEDICOS PARA NEUROCIRUGIA - PTE: DE MARCO ISAIAS y CARDENAS SIMON \"HOSPITAL VILELA\"",
-      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 505% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
       "id": 34128,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/34128",
       "objeto": "Sillas tanden para sala de espera de Centros de Salud.",
@@ -10924,15 +10789,6 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "SOBRE_PRESUPUESTO",
       "detalle": "Adjudicado 24% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 34053,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/34053",
-      "objeto": "CONCURSO Nº 222: FORMULAS PARA ALIMENTACION PARENTERAL Y ENTERAL NORMATIZADAS - PTE: DURAN ISABELLA (HOSPITAL VILELA)",
-      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 2998% sobre el presupuesto oficial",
       "peso": 3
     },
     {
@@ -11677,6 +11533,13 @@
       "reparticiones": 2
     },
     {
+      "proveedor": "EDECA SA",
+      "cuit": "33515507219",
+      "monto": 11672332189.5,
+      "adjudicaciones": 2,
+      "reparticiones": 1
+    },
+    {
       "proveedor": "LAROMET S.A",
       "cuit": "30501125594",
       "monto": 9166302029.560001,
@@ -11686,22 +11549,15 @@
     {
       "proveedor": "DROGUERIA DEL LITORAL SA",
       "cuit": null,
-      "monto": 6426469348.99,
-      "adjudicaciones": 22,
-      "reparticiones": 3
+      "monto": 7070479692.06,
+      "adjudicaciones": 122,
+      "reparticiones": 10
     },
     {
-      "proveedor": "EDECA S.A",
+      "proveedor": "CONHORMAQ S.R.L.",
       "cuit": null,
-      "monto": 5968686461.77,
-      "adjudicaciones": 1,
-      "reparticiones": 1
-    },
-    {
-      "proveedor": "EDECA SA",
-      "cuit": "33515507219",
-      "monto": 5703645727.73,
-      "adjudicaciones": 1,
+      "monto": 5560116477.93,
+      "adjudicaciones": 2,
       "reparticiones": 1
     },
     {
@@ -11712,10 +11568,10 @@
       "reparticiones": 2
     },
     {
-      "proveedor": "BECHA S.A",
+      "proveedor": "BECHA SA",
       "cuit": null,
-      "monto": 4174373800,
-      "adjudicaciones": 1,
+      "monto": 4201928200,
+      "adjudicaciones": 2,
       "reparticiones": 1
     },
     {
@@ -11726,25 +11582,11 @@
       "reparticiones": 3
     },
     {
-      "proveedor": "CONHORMAQ S.R.L",
-      "cuit": null,
-      "monto": 3330114775.82,
-      "adjudicaciones": 1,
-      "reparticiones": 1
-    },
-    {
       "proveedor": "BUNKER SEGURIDAD S.R.L.",
       "cuit": "30710654316",
-      "monto": 2845941082,
-      "adjudicaciones": 3,
+      "monto": 2916406462,
+      "adjudicaciones": 5,
       "reparticiones": 2
-    },
-    {
-      "proveedor": "CONHORMAQ S.R.L.",
-      "cuit": null,
-      "monto": 2230001702.11,
-      "adjudicaciones": 1,
-      "reparticiones": 1
     },
     {
       "proveedor": "PROYMAN S.A.",
@@ -11768,11 +11610,25 @@
       "reparticiones": 1
     },
     {
+      "proveedor": "INFOSEG S.R.L.",
+      "cuit": "30707601120",
+      "monto": 1028387615.5,
+      "adjudicaciones": 9,
+      "reparticiones": 5
+    },
+    {
       "proveedor": "DEL SOL CONSTRUCTORA S.A",
       "cuit": "30625547632",
       "monto": 1015356380,
       "adjudicaciones": 1,
       "reparticiones": 1
+    },
+    {
+      "proveedor": "IANUS S.A.",
+      "cuit": null,
+      "monto": 999289300.7599999,
+      "adjudicaciones": 54,
+      "reparticiones": 4
     },
     {
       "proveedor": "PRAXAIR ARGENTINA S.R.L.",
@@ -11782,18 +11638,18 @@
       "reparticiones": 1
     },
     {
+      "proveedor": "SEALS S.R.L.",
+      "cuit": "33707757979",
+      "monto": 810494184,
+      "adjudicaciones": 11,
+      "reparticiones": 4
+    },
+    {
       "proveedor": "C.R OBRAS Y SERVICIOS SRL",
       "cuit": null,
       "monto": 810000000,
       "adjudicaciones": 1,
       "reparticiones": 1
-    },
-    {
-      "proveedor": "SEALS S.R.L.",
-      "cuit": null,
-      "monto": 805554240,
-      "adjudicaciones": 8,
-      "reparticiones": 3
     },
     {
       "proveedor": "INFOSAG S.R.L",
@@ -11803,18 +11659,18 @@
       "reparticiones": 1
     },
     {
-      "proveedor": "INFOSEG S.R.L",
-      "cuit": null,
-      "monto": 674003982,
-      "adjudicaciones": 3,
-      "reparticiones": 2
+      "proveedor": "TECNICA Y SISTEMAS SRL",
+      "cuit": "30658288527",
+      "monto": 623347360,
+      "adjudicaciones": 12,
+      "reparticiones": 8
     },
     {
-      "proveedor": "IANUS S.A.",
+      "proveedor": "WIENER LABORATORIOS S.A",
       "cuit": null,
-      "monto": 586748523.76,
-      "adjudicaciones": 28,
-      "reparticiones": 3
+      "monto": 598463138,
+      "adjudicaciones": 10,
+      "reparticiones": 1
     },
     {
       "proveedor": "STRAND S.A.",
@@ -11824,18 +11680,18 @@
       "reparticiones": 2
     },
     {
-      "proveedor": "WIENER LABORATORIOS S.A",
+      "proveedor": "NUEVA ERA ROSARIO S.R.L.",
       "cuit": null,
-      "monto": 564916838,
-      "adjudicaciones": 8,
-      "reparticiones": 1
+      "monto": 570391298.2,
+      "adjudicaciones": 69,
+      "reparticiones": 10
     },
     {
-      "proveedor": "TÉCNICA Y SISTEMAS S.R.L.",
-      "cuit": "30658288527",
-      "monto": 556221360,
-      "adjudicaciones": 4,
-      "reparticiones": 3
+      "proveedor": "MERCOSUR SEGURIDAD S.R.L.",
+      "cuit": null,
+      "monto": 547453310,
+      "adjudicaciones": 8,
+      "reparticiones": 4
     },
     {
       "proveedor": "AIR LIQUIDE ARGENTINA S.A.",
@@ -11866,10 +11722,24 @@
       "reparticiones": 1
     },
     {
-      "proveedor": "DROGUERIA DEL LITORAL S.A.",
+      "proveedor": "DROGUERÍA KELLERHOFF SA",
       "cuit": null,
-      "monto": 451716969.92999995,
-      "adjudicaciones": 18,
+      "monto": 469812139.09,
+      "adjudicaciones": 71,
+      "reparticiones": 9
+    },
+    {
+      "proveedor": "GRUPO BOSCH S.C.",
+      "cuit": null,
+      "monto": 465581181.11999995,
+      "adjudicaciones": 77,
+      "reparticiones": 6
+    },
+    {
+      "proveedor": "ASSERCA SRL",
+      "cuit": null,
+      "monto": 460000000,
+      "adjudicaciones": 6,
       "reparticiones": 3
     },
     {
@@ -11887,13 +11757,6 @@
       "reparticiones": 1
     },
     {
-      "proveedor": "GRUPO BOSCH S.C.",
-      "cuit": null,
-      "monto": 433200756.8299999,
-      "adjudicaciones": 67,
-      "reparticiones": 6
-    },
-    {
       "proveedor": "SAKURA MOTORS S.A.",
       "cuit": "33717319139",
       "monto": 413795755,
@@ -11905,13 +11768,6 @@
       "cuit": "33586127549",
       "monto": 411495525,
       "adjudicaciones": 1,
-      "reparticiones": 1
-    },
-    {
-      "proveedor": "IANUS S.A",
-      "cuit": null,
-      "monto": 409291445,
-      "adjudicaciones": 25,
       "reparticiones": 1
     },
     {
@@ -11936,24 +11792,17 @@
       "reparticiones": 1
     },
     {
-      "proveedor": "NUEVA ERA ROSARIO S.R.L.",
+      "proveedor": "DROGUERÍA 20 DE JUNIO S.A.",
       "cuit": null,
-      "monto": 359427205.2,
-      "adjudicaciones": 55,
-      "reparticiones": 8
+      "monto": 350677886.6,
+      "adjudicaciones": 9,
+      "reparticiones": 3
     },
     {
-      "proveedor": "INFOSEG S.R.L.",
-      "cuit": "30707601120",
-      "monto": 354383633.5,
+      "proveedor": "DROGUERÍA ROSFAR S.A",
+      "cuit": null,
+      "monto": 328546337.44,
       "adjudicaciones": 6,
-      "reparticiones": 4
-    },
-    {
-      "proveedor": "MERCOSUR SEGURIDAD S.R.L",
-      "cuit": null,
-      "monto": 346848000,
-      "adjudicaciones": 1,
       "reparticiones": 1
     },
     {
@@ -11964,11 +11813,25 @@
       "reparticiones": 1
     },
     {
+      "proveedor": "MACROPHARMA SA",
+      "cuit": null,
+      "monto": 319562456.7,
+      "adjudicaciones": 30,
+      "reparticiones": 7
+    },
+    {
       "proveedor": "TECNOIMAGEN S.A",
       "cuit": null,
       "monto": 315183925,
       "adjudicaciones": 2,
       "reparticiones": 2
+    },
+    {
+      "proveedor": "DROGUERÍA MONUMENTO S.A",
+      "cuit": null,
+      "monto": 303993770.95000005,
+      "adjudicaciones": 58,
+      "reparticiones": 8
     },
     {
       "proveedor": "CRUCIJUEGOS INSUMOS PÚBLICOS S.R.L.",
@@ -11978,39 +11841,32 @@
       "reparticiones": 1
     },
     {
-      "proveedor": "ASSERCA SRL",
+      "proveedor": "TESTOCON S.R.L.",
       "cuit": null,
-      "monto": 280000000,
-      "adjudicaciones": 3,
-      "reparticiones": 3
+      "monto": 272773200,
+      "adjudicaciones": 6,
+      "reparticiones": 4
     },
     {
-      "proveedor": "DROGUERÍA ROSFAR SA",
+      "proveedor": "- COMPAÑIA FARMACEUTICA S.R.L.",
       "cuit": null,
-      "monto": 278286841.4,
-      "adjudicaciones": 2,
-      "reparticiones": 1
+      "monto": 246446958.85000005,
+      "adjudicaciones": 31,
+      "reparticiones": 6
     },
     {
-      "proveedor": "DROGUERÍA KELLERHOFF S.A.",
+      "proveedor": "DROGUERÍA LIDER S.R.L.",
       "cuit": null,
-      "monto": 258966608.3,
-      "adjudicaciones": 39,
+      "monto": 243940264.32,
+      "adjudicaciones": 26,
       "reparticiones": 5
     },
     {
-      "proveedor": "JNC MANTENIMIENTO INDUSTRIAL S.R.L.",
+      "proveedor": "JNC MANTENIMIENTO INDUSTRIAL S. R. L.",
       "cuit": "30717765571",
       "monto": 216727200,
-      "adjudicaciones": 2,
-      "reparticiones": 2
-    },
-    {
-      "proveedor": "CONEXYS SRL",
-      "cuit": null,
-      "monto": 207860000,
-      "adjudicaciones": 1,
-      "reparticiones": 1
+      "adjudicaciones": 3,
+      "reparticiones": 3
     }
   ]
 }
