@@ -4,7 +4,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   outputFileTracingIncludes: {
-    '/observatorio': ['./datos/observatorio.json'],
+    '/observatorio': ['./datos/observatorio*.json'],
     '/agentes': ['./datos/observatorio.json', './datos/agentes/ejecuciones.jsonl'],
   },
   images: {

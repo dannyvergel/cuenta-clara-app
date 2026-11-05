@@ -2,7 +2,8 @@ import fs from 'node:fs'
 import path from 'node:path'
 
 export type Senal = {
-  id: number
+  fuente?: string
+  id: number | string
   url: string
   objeto: string
   reparticion: string | null
@@ -42,8 +43,15 @@ export const SENALES: Record<string, { titulo: string; explicacion: string }> = 
   DESIERTA_O_FRACASADA: { titulo: 'Desierta o fracasada', explicacion: 'Ítems sin ofertas válidas: pliego a revisar o mercado cerrado.' },
 }
 
-export function getObservatorio(): Observatorio | null {
-  const archivo = path.join(process.cwd(), 'datos', 'observatorio.json')
+export const FUENTES: Record<string, { nombre: string; origen: string }> = {
+  rosario: { nombre: 'Municipalidad de Rosario', origen: 'las fichas oficiales de rosario.gob.ar' },
+  mendoza: { nombre: 'Gobierno de Mendoza', origen: 'los datos abiertos OCDS de COMPR.AR Mendoza' },
+}
+
+// Cada jurisdicción tiene su propio archivo: no se mezclan montos de un municipio con los de una provincia.
+export function getObservatorio(fuente = 'rosario'): Observatorio | null {
+  if (!FUENTES[fuente]) return null
+  const archivo = path.join(process.cwd(), 'datos', fuente === 'rosario' ? 'observatorio.json' : `observatorio-${fuente}.json`)
   if (!fs.existsSync(archivo)) return null
   return JSON.parse(fs.readFileSync(archivo, 'utf8')) as Observatorio
 }

@@ -18,6 +18,23 @@ node scripts/ingesta/senales.mjs datos/rosario.jsonl --salida datos/observatorio
 
 Si se corta, volvé a correr el mismo comando: saltea los ids ya bajados.
 
+## Provincia de Mendoza (OCDS)
+
+Segundo conector: `mendoza.mjs`. Baja los paquetes OCDS de
+`datosabiertos-compras.mendoza.gov.ar/datasets/` (COMPR.AR Mendoza, CC BY 4.0), compila los releases
+de cada proceso y escribe `datos/mendoza.jsonl` con el mismo formato que Rosario. Anda desde fuera
+de Argentina y tarda alrededor de un minuto.
+
+```powershell
+node scripts/ingesta/mendoza.mjs
+node scripts/ingesta/senales.mjs datos/mendoza.jsonl --salida datos/observatorio-mendoza.json
+```
+
+Cada jurisdicción tiene su propio observatorio (`/observatorio?fuente=mendoza`): no se suman montos
+de un municipio con los de una provincia. El portal publica con atraso (último paquete: enero 2026).
+`UNICA_OFERTA` sale del campo `numberOfTenderers`. `SOBRE_PRESUPUESTO` en Mendoza está inflado por la
+inflación entre el presupuesto y la adjudicación: falta deflactar con IPC.
+
 ## Señales (indicios para mirar, no acusaciones)
 
 - `SOBRE_PRESUPUESTO`: adjudicado más de 5% sobre el presupuesto oficial.

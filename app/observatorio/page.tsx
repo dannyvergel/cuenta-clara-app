@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { PageHeader } from '@/components/page-header'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
-import { getObservatorio, SENALES } from '@/lib/observatorio'
+import { FUENTES, getObservatorio, SENALES } from '@/lib/observatorio'
 import { formatoMoneda } from '@/lib/format'
 import { cn } from '@/lib/utils'
 
@@ -14,34 +14,53 @@ const PESO_CLASE: Record<number, string> = {
   1: 'bg-info-soft text-primary border-primary/20',
 }
 
-export default async function ObservatorioPage({ searchParams }: { searchParams: Promise<{ senal?: string }> }) {
-  const { senal } = await searchParams
-  const obs = getObservatorio()
+export default async function ObservatorioPage({ searchParams }: { searchParams: Promise<{ senal?: string; fuente?: string }> }) {
+  const { senal, fuente: f } = await searchParams
+  const fuente = f && FUENTES[f] ? f : 'rosario'
+  const obs = getObservatorio(fuente)
+  const q = (extra: Record<string, string>) => '/observatorio?' + new URLSearchParams({ ...(fuente !== 'rosario' ? { fuente } : {}), ...extra }).toString()
+  const selector = (
+    <nav aria-label="Jurisdicción" className="mb-6 flex flex-wrap gap-2">
+      {Object.entries(FUENTES).map(([k, v]) => (
+        <Link
+          key={k}
+          href={k === 'rosario' ? '/observatorio' : `/observatorio?fuente=${k}`}
+          className={cn('rounded-md border px-3 py-1.5 text-sm font-medium', k === fuente ? 'border-primary bg-primary text-primary-foreground' : 'border-border hover:bg-muted')}
+        >
+          {v.nombre}
+        </Link>
+      ))}
+    </nav>
+  )
 
   if (!obs) {
     return (
-      <PageHeader
-        eyebrow="Observatorio"
-        title="Todavía no hay datos ingestados"
-        description="Corré scripts/ingesta/rosario.mjs y senales.mjs para generar datos/observatorio.json."
-      />
+      <>
+        {selector}
+        <PageHeader
+          eyebrow="Observatorio"
+          title="Todavía no hay datos ingestados"
+          description="Corré el script de ingesta de esta fuente y senales.mjs para generar su observatorio."
+        />
+      </>
     )
   }
 
   const filtro = senal && SENALES[senal] ? senal : null
   const senales = obs.senales
     .filter((s) => !filtro || s.codigo === filtro)
-    .sort((a, b) => b.peso - a.peso || b.id - a.id)
+    .sort((a, b) => b.peso - a.peso || String(b.id).localeCompare(String(a.id), 'es', { numeric: true }))
   const generado = new Date(obs.generado).toLocaleDateString('es-AR', { day: 'numeric', month: 'long', year: 'numeric' })
 
   return (
     <>
+      {selector}
       <PageHeader
-        eyebrow="Observatorio · Municipalidad de Rosario"
+        eyebrow={`Observatorio · ${FUENTES[fuente].nombre}`}
         title="Compras públicas reales, con lupa"
         description={
           <>
-            {obs.contrataciones.toLocaleString('es-AR')} contrataciones leídas de las fichas oficiales de rosario.gob.ar,
+            {obs.contrataciones.toLocaleString('es-AR')} contrataciones leídas de {FUENTES[fuente].origen},
             actualizado el {generado}. Las señales son indicios para mirar de cerca, no acusaciones.
           </>
         }
@@ -64,7 +83,7 @@ export default async function ObservatorioPage({ searchParams }: { searchParams:
         <h2 id="t-senales" className="mb-3 text-xl font-semibold">Señales de alerta</h2>
         <div className="mb-4 flex flex-wrap gap-2">
           <Link
-            href="/observatorio"
+            href={q({})}
             className={cn('rounded-full border px-3 py-1 text-sm', !filtro ? 'border-primary bg-primary text-primary-foreground' : 'border-border hover:bg-muted')}
           >
             Todas ({obs.senales.length})
@@ -72,7 +91,7 @@ export default async function ObservatorioPage({ searchParams }: { searchParams:
           {obs.senales_por_codigo.map(([codigo, n]) => (
             <Link
               key={codigo}
-              href={`/observatorio?senal=${codigo}`}
+              href={q({ senal: codigo })}
               title={SENALES[codigo]?.explicacion}
               className={cn('rounded-full border px-3 py-1 text-sm', filtro === codigo ? 'border-primary bg-primary text-primary-foreground' : 'border-border hover:bg-muted')}
             >
@@ -105,7 +124,7 @@ export default async function ObservatorioPage({ searchParams }: { searchParams:
                   <TableCell className="max-w-xs whitespace-normal">{s.detalle}</TableCell>
                   <TableCell className="pr-4">
                     <a href={s.url} target="_blank" rel="noreferrer" className="text-primary underline-offset-2 hover:underline">
-                      Ficha {s.id}
+                      {typeof s.id === 'string' ? s.id.replace(/^ocds-[a-z0-9]+-/, '') : `Ficha ${s.id}`}
                     </a>
                   </TableCell>
                 </TableRow>

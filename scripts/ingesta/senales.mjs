@@ -16,7 +16,8 @@ for (const f of archivos)
   for (const l of fs.readFileSync(f, 'utf8').split('\n')) if (l.trim()) { const r = JSON.parse(l); regs.set(`${r.fuente}:${r.id_fuente}`, r) }
 const R = [...regs.values()]
 // Re-derivar campos con el parser actual (los JSONL guardan el texto original del resultado).
-for (const r of R) {
+// Solo las fuentes con resultado en texto libre (Rosario); las OCDS ya traen adjudicatarios estructurados.
+for (const r of R.filter((x) => x.fuente === 'rosario')) {
   r.adjudicatarios = adjudicatarios(r.resultado).map((a) => ({ ...a, cuit_valido: a.cuit ? cuitValido(a.cuit) : null }))
   r.monto_adjudicado = r.adjudicatarios.some((a) => a.monto) ? r.adjudicatarios.reduce((s, a) => s + (a.monto ?? 0), 0) : null
 }
@@ -26,11 +27,11 @@ const normal = (s) => (s ?? '').toUpperCase().normalize('NFD').replace(/[\u0300-
 const clave = (s) => normal(s).split(' ').filter((w) => w.length > 3).slice(0, 4).join(' ')
 
 const senales = []
-const add = (r, codigo, detalle, peso = 1) => senales.push({ id: r.id_fuente, url: r.url, objeto: r.objeto, reparticion: r.reparticion, codigo, detalle, peso })
+const add = (r, codigo, detalle, peso = 1) => senales.push({ fuente: r.fuente, id: r.id_fuente, url: r.url, objeto: r.objeto, reparticion: r.reparticion, codigo, detalle, peso })
 
 for (const r of R) {
   const txt = r.resultado ?? ''
-  if (/[uú]nic[oa] (oferente|oferta)/i.test(txt)) add(r, 'UNICA_OFERTA', 'Se adjudicó con una sola oferta', 2)
+  if (/[uú]nic[oa] (oferente|oferta)/i.test(txt) || (r.numero_oferentes === 1 && r.estado === 'Adjudicada')) add(r, 'UNICA_OFERTA', 'Se adjudicó con una sola oferta', 2)
   // Más de 3x el presupuesto casi siempre es presupuesto cargado por ítem o mal parseado: no se marca.
   if (r.presupuesto_oficial && r.monto_adjudicado > r.presupuesto_oficial * 1.05 && r.monto_adjudicado <= r.presupuesto_oficial * 3)
     add(r, 'SOBRE_PRESUPUESTO', `Adjudicado ${Math.round((r.monto_adjudicado / r.presupuesto_oficial - 1) * 100)}% sobre el presupuesto oficial`, 3)
@@ -87,6 +88,7 @@ const json = JSON.stringify({
   contrataciones: R.length,
   adjudicadas: R.filter((r) => r.estado === 'Adjudicada').length,
   monto_adjudicado: R.reduce((s, r) => s + (r.monto_adjudicado ?? 0), 0),
+  por_fuente: cuenta((r) => r.fuente),
   por_tipo: cuenta((r) => r.tipo), por_estado: cuenta((r) => r.estado), por_reparticion: cuenta((r) => r.reparticion).slice(0, 15),
   senales_por_codigo: Object.entries(senales.reduce((m, s) => ((m[s.codigo] = (m[s.codigo] ?? 0) + 1), m), {})),
   senales, concentracion, proveedores: proveedores.slice(0, 50),
