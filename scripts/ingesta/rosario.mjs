@@ -122,7 +122,7 @@ export function parsear(id, html) {
 }
 
 // Se usa curl (viene en Windows 10+, macOS y Linux): más tolerante que fetch con estos servidores.
-async function bajar(id, intento = 1) {
+export async function bajar(id, intento = 1) {
   try {
     const { stdout } = await sh('curl', ['-sL', '--max-time', '40', '-A', 'Mozilla/5.0 (CuentaClara observatorio)', '-w', '\n%{http_code}', BASE + id], { maxBuffer: 20e6 })
     const corte = stdout.lastIndexOf('\n')

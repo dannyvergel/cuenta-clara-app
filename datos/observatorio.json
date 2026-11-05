@@ -1,12 +1,12 @@
 {
-  "generado": "2026-11-05T09:51:21.529Z",
-  "contrataciones": 4609,
+  "generado": "2026-11-05T12:00:24.233Z",
+  "contrataciones": 4613,
   "adjudicadas": 3364,
   "monto_adjudicado": 124219857582.50993,
   "por_tipo": [
     [
       "Compra Agil",
-      2773
+      2777
     ],
     [
       "Concurso de Precios",
@@ -44,7 +44,7 @@
     ],
     [
       "Publicada para Apertura",
-      60
+      64
     ],
     [
       "Sin Efecto",
@@ -58,7 +58,7 @@
   "por_reparticion": [
     [
       "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      792
+      793
     ],
     [
       "Secretaría de Salud Pública",
@@ -66,7 +66,7 @@
     ],
     [
       "Hospital de Niños \"Víctor J. Vilela\"",
-      358
+      359
     ],
     [
       "APS (S.S.P.)",
@@ -78,7 +78,7 @@
     ],
     [
       "Dirección de Bioquímica",
-      215
+      216
     ],
     [
       "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
@@ -127,12 +127,12 @@
       326
     ],
     [
-      "SOBRE_PRESUPUESTO",
-      240
-    ],
-    [
       "UNICA_OFERTA",
       112
+    ],
+    [
+      "SOBRE_PRESUPUESTO",
+      240
     ],
     [
       "CUIT_INVALIDO",
@@ -176,501 +176,6 @@
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/38580",
       "objeto": "MATERNIDAD MARTIN BIOMEDICO PARA TERAPIA INTENSIVA",
       "reparticion": "Maternidad Martín",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 37098,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37098",
-      "objeto": "QUÍMICA CLÍNICA. UROLOGÍA. AUTOANALIZADOR DE ORINAS SEMIAUTOMÁTICO. DIRECCIÓN DE BIOQUÍMICA",
-      "reparticion": "Dirección de Bioquímica",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 10% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 37094,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37094",
-      "objeto": "COMPRA ÁGIL - Provisión de servicio de grúa para la Secretaría de Control y Convivencia.",
-      "reparticion": "Secretaría de Control y Convivencia",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 37092,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37092",
-      "objeto": "Insumos de ortopedia y traumatologia",
-      "reparticion": "Secretaría de Salud Pública",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 37091,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37091",
-      "objeto": "Servicio de alquiler de módulos/unidades móviles para actividades culturales producidas por la Dirección General de Producción Estratégica de la Secretaría de Cultura y Educación",
-      "reparticion": "Secretaría de Cultura y Educación",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 37090,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37090",
-      "objeto": "COMPRA AGIL CEMAR BIOMEDICO PARA ESTERILIZACION",
-      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 11% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 37081,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37081",
-      "objeto": "COMPRA ÁGIL INSUMOS PARA CURACIONES (HECA)",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 37077,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37077",
-      "objeto": "COMPRA ÁGIL CEMAR - FORMULA PARA ALIMENTACIÓN ENTERAL GENERAL",
-      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 37076,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37076",
-      "objeto": "COMPRA ÁGIL BIOMEDICOS PARA UNIDAD RENAL Y ESPECIALIDADES UROLOGICAS (HECA)",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 37073,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37073",
-      "objeto": "COMPRA ÁGIL ANTIINFECCIOSOS DE VÍA DE EXCEPCIÓN - LETERMOVIR COMP (HECA)",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 37067,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37067",
-      "objeto": "COMPRA AGIL MATERNIDAD MARTIN  BIOMEDICO BLOCK QUIRURGICO",
-      "reparticion": "Maternidad Martín",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 37067,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37067",
-      "objeto": "COMPRA AGIL MATERNIDAD MARTIN  BIOMEDICO BLOCK QUIRURGICO",
-      "reparticion": "Maternidad Martín",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 37062,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37062",
-      "objeto": "COMPRA ÁGIL - BIOMEDICOS PARA TERAPIA INTENSIVA  - MATERNIDAD MARTIN",
-      "reparticion": "Maternidad Martín",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 37060,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37060",
-      "objeto": "Compra Agil Compra de Toxina botulinica tipo A Secretaría de Salud Pública",
-      "reparticion": "Secretaría de Salud Pública",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 5% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 37055,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37055",
-      "objeto": "COMPRA ÁGIL - ADQUISICIÓN DE OFTALMOSCOPIO PARA EL SERVICIO DE OFTALMOLOGÍA PEDIÁTRICA- HOSPITAL I CARRASCO",
-      "reparticion": "Hospital Intendente Gabriel Carrasco",
-      "codigo": "UNICA_OFERTA",
-      "detalle": "Se adjudicó con una sola oferta",
-      "peso": 2
-    },
-    {
-      "id": 37053,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37053",
-      "objeto": "COMPRA AGIL CEMAR OFTALMOLOGICOS",
-      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 37052,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37052",
-      "objeto": "COMPRA ÁGIL HORMONALES (HECA)",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 37052,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37052",
-      "objeto": "COMPRA ÁGIL HORMONALES (HECA)",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 37051,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37051",
-      "objeto": "COMPRA AGIL CEMAR BIOMEDICO PARA CIRUGIA",
-      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 37051,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37051",
-      "objeto": "COMPRA AGIL CEMAR BIOMEDICO PARA CIRUGIA",
-      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 36398,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36398",
-      "objeto": "Adquisición de equipamiento informático para la Sec. de Igualdad, Género y DDHH",
-      "reparticion": "Secretaría de Igualdad, Género y Derechos Humanos",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 36397,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36397",
-      "objeto": "COMPRA ÁGIL - Compra de cartelería para la fachada del centro de salud \"Las Flores\", perteneciente a la Dirección de Centros de Salud.-",
-      "reparticion": "APS (S.S.P.)",
-      "codigo": "UNICA_OFERTA",
-      "detalle": "Se adjudicó con una sola oferta",
-      "peso": 2
-    },
-    {
-      "id": 36396,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36396",
-      "objeto": "COMPRA ÁGIL: Resmas de cartulina para Abastecimiento de la Dirección de Centros de Salud.",
-      "reparticion": "APS (S.S.P.)",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 36395,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36395",
-      "objeto": "COMPRA ÁGIL: Adquisición de materiales de goma espuma y cuerina para cambio y reparación de camillas y sillas en varios Centros de Salud.",
-      "reparticion": "APS (S.S.P.)",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 36394,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36394",
-      "objeto": "Adquisición de Mobiliario para la Sec. de Igualdad, Género y DDHH",
-      "reparticion": "Secretaría de Igualdad, Género y Derechos Humanos",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 36387,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36387",
-      "objeto": "(COMPRA ÁGIL) Provisión de Banderitas Argentinas, para el evento \"Promesas 2026\", para la Dir. Gral. del Monumento a la Bandera",
-      "reparticion": "Monumento Nacional a la Bandera (Administración)",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 36379,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36379",
-      "objeto": "(COMPRA ÁGIL) - Contratación de estructuras de apuntalamiento - Programas Locales de Hábitat y Vivienda con la provincia de Santa Fe - Proyecto Curva Tucumán - Bº Cotar - Servicio Publico de la Vivienda y el Hábitat",
-      "reparticion": "Servicio Público de la Vivienda y el Hábitat",
-      "codigo": "UNICA_OFERTA",
-      "detalle": "Se adjudicó con una sola oferta",
-      "peso": 2
-    },
-    {
-      "id": 36376,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36376",
-      "objeto": "COMPRA AGIL MATERNIDAD MARTIN MATERIALES ELECTRICOS",
-      "reparticion": "Maternidad Martín",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 36363,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36363",
-      "objeto": "Compra agil Materiales de impresión Secretaría de Salud Pública",
-      "reparticion": "Secretaría de Salud Pública",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 36361,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36361",
-      "objeto": "COMPRA ÁGIL ARTÍCULOS DE FERRETERÍA (HECA)",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 36355,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36355",
-      "objeto": "AUTOANALIZADORES QUÍMICA AUTOMATIZADA HECA",
-      "reparticion": "Dirección de Bioquímica",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 36355,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36355",
-      "objeto": "AUTOANALIZADORES QUÍMICA AUTOMATIZADA HECA",
-      "reparticion": "Dirección de Bioquímica",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 36354,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36354",
-      "objeto": "Contratación de servicio de recolección, transporte, tratamiento y disposición final de residuos biopatogénicos generados en establecimientos de salud dependientes de la Sec. de Salud Pública de la Municipalidad de Rosario",
-      "reparticion": "Secretaría de Salud Pública",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 15% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 36350,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36350",
-      "objeto": "QUIMICA AUTOMATIZADA ALBERDI \"DIRECCION DE BIOQUIMICA\"",
-      "reparticion": "Dirección de Bioquímica",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 36347,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36347",
-      "objeto": "COMPRA AGIL MATERNIDAD MARTIN  ANTIINFECCIOSOS",
-      "reparticion": "Maternidad Martín",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 36347,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36347",
-      "objeto": "COMPRA AGIL MATERNIDAD MARTIN  ANTIINFECCIOSOS",
-      "reparticion": "Maternidad Martín",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 35697,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35697",
-      "objeto": "COMPRA AGIL M.MARTIN BIOMEDICO DE USO NORMATIZADO",
-      "reparticion": "Maternidad Martín",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 21% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 35697,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35697",
-      "objeto": "COMPRA AGIL M.MARTIN BIOMEDICO DE USO NORMATIZADO",
-      "reparticion": "Maternidad Martín",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 35695,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35695",
-      "objeto": "COMPRA ÁGIL_MEDICAMENTOS BAJO PROGRAMAS_ANFOTERICINA  B LIPOSOMAL 50 MG",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 9% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 35692,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35692",
-      "objeto": "*COMPRA AGIL N°03-026-2026* *COLCHONES Y FUNDAS PARA COLCHONES  SANATORIALES* \"HOSPITAL DE NIÑOS V.J.VILELA\"",
-      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 7% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 35691,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35691",
-      "objeto": "Locación de un inmueble destinado al funcionamiento del Área de Servicios Urbanos Distrito Norte - Dir. Gral. de Mantenimiento Urbano y Respuesta Cercana - Secretaria de Ambiente y Espacio Publico.-",
-      "reparticion": "Dirección General de Mantenimiento Urbano y Respuesta Cercana",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 35686,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35686",
-      "objeto": "COMPRA ÁGIL - BIOMEDICOS CATETERES, SONDAS Y EQUIPOS NORMATIZADOS",
-      "reparticion": "Maternidad Martín",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 35686,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35686",
-      "objeto": "COMPRA ÁGIL - BIOMEDICOS CATETERES, SONDAS Y EQUIPOS NORMATIZADOS",
-      "reparticion": "Maternidad Martín",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 35683,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35683",
-      "objeto": "BIOMEDICOS IMPLANTES",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 6% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 35682,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35682",
-      "objeto": "COMPRA ÁGIL Nº 03-027-2026 ESPECÍFICOS NORMATIZADOS - CICLOSPORINA \"Hosp. Vilela\"",
-      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 21% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 35681,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35681",
-      "objeto": "*COMPRA AGIL N°03-024-2026* * PUERTAS DE ALUMINIO DE HOSPITAL DE DIA DE ONCOHEMATOLOGIA* \"HOSPITAL DE NIÑOS V. J. VILELA\"",
-      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 35679,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35679",
-      "objeto": "COMPRA AGIL M.MARTIN BIOMEDICO DE USO GENERAL",
-      "reparticion": "Maternidad Martín",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 35678,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35678",
-      "objeto": "*COMPRA AGIL N° 03-025-2026* *ELECTROVALVULAS PARA MAQUINAS PASTEURIZADORA* \"HOSPITAL DE NIÑOS V.J.VILELA\"",
-      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 35674,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35674",
-      "objeto": "COMPRA AGIL  CEMAR  BIOMEDICO BLOCK QUIRURGICO",
-      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 35671,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35671",
-      "objeto": "COMPRA ÁGIL: Mesada, grifería y muebles de madera a medida para el Centro de Salud Barrio Toba.",
-      "reparticion": "APS (S.S.P.)",
-      "codigo": "UNICA_OFERTA",
-      "detalle": "Se adjudicó con una sola oferta",
-      "peso": 2
-    },
-    {
-      "id": 35671,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35671",
-      "objeto": "COMPRA ÁGIL: Mesada, grifería y muebles de madera a medida para el Centro de Salud Barrio Toba.",
-      "reparticion": "APS (S.S.P.)",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 35665,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35665",
-      "objeto": "Compra Agil Contratación del servicio de toxicologia",
-      "reparticion": "Secretaría de Salud Pública",
-      "codigo": "SOBRE_PRESUPUESTO",
-      "detalle": "Adjudicado 17% sobre el presupuesto oficial",
-      "peso": 3
-    },
-    {
-      "id": 35660,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35660",
-      "objeto": "COMPRA ÁGIL - Adquisición de materiales eléctricos para la Dirección General de Producción Estratégica",
-      "reparticion": "Secretaría de Cultura y Educación",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 35658,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35658",
-      "objeto": "Compras ágiles - elementos para operatoria dental para la Dirección de Salud Bucal.-",
-      "reparticion": "APS (S.S.P.)",
-      "codigo": "SOBREPRECIO_DETECTADO",
-      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
-      "peso": 1
-    },
-    {
-      "id": 35651,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35651",
-      "objeto": "Servicio de alquiler de sistemas de iluminación para eventos organizados por la Dirección General de Producción Estratégica de la Secretaría de Cultura y Educación",
-      "reparticion": "Secretaría de Cultura y Educación",
-      "codigo": "DESIERTA_O_FRACASADA",
-      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
-      "peso": 1
-    },
-    {
-      "id": 35649,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35649",
-      "objeto": "*COMPRA AGIL N°03-023-2026* MATERIALES ELECTRICOS *HOSPITAL DE NIÑOS VICTOR J. VILELA*",
-      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBREPRECIO_DETECTADO",
       "detalle": "El propio organismo desestimó ofertas por sobreprecio",
       "peso": 1
@@ -4069,6 +3574,177 @@
       "peso": 1
     },
     {
+      "id": 37098,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37098",
+      "objeto": "QUÍMICA CLÍNICA. UROLOGÍA. AUTOANALIZADOR DE ORINAS SEMIAUTOMÁTICO. DIRECCIÓN DE BIOQUÍMICA",
+      "reparticion": "Dirección de Bioquímica",
+      "codigo": "SOBRE_PRESUPUESTO",
+      "detalle": "Adjudicado 10% sobre el presupuesto oficial",
+      "peso": 3
+    },
+    {
+      "id": 37094,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37094",
+      "objeto": "COMPRA ÁGIL - Provisión de servicio de grúa para la Secretaría de Control y Convivencia.",
+      "reparticion": "Secretaría de Control y Convivencia",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 37092,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37092",
+      "objeto": "Insumos de ortopedia y traumatologia",
+      "reparticion": "Secretaría de Salud Pública",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 37091,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37091",
+      "objeto": "Servicio de alquiler de módulos/unidades móviles para actividades culturales producidas por la Dirección General de Producción Estratégica de la Secretaría de Cultura y Educación",
+      "reparticion": "Secretaría de Cultura y Educación",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 37090,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37090",
+      "objeto": "COMPRA AGIL CEMAR BIOMEDICO PARA ESTERILIZACION",
+      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
+      "codigo": "SOBRE_PRESUPUESTO",
+      "detalle": "Adjudicado 11% sobre el presupuesto oficial",
+      "peso": 3
+    },
+    {
+      "id": 37081,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37081",
+      "objeto": "COMPRA ÁGIL INSUMOS PARA CURACIONES (HECA)",
+      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 37077,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37077",
+      "objeto": "COMPRA ÁGIL CEMAR - FORMULA PARA ALIMENTACIÓN ENTERAL GENERAL",
+      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 37076,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37076",
+      "objeto": "COMPRA ÁGIL BIOMEDICOS PARA UNIDAD RENAL Y ESPECIALIDADES UROLOGICAS (HECA)",
+      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 37073,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37073",
+      "objeto": "COMPRA ÁGIL ANTIINFECCIOSOS DE VÍA DE EXCEPCIÓN - LETERMOVIR COMP (HECA)",
+      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 37067,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37067",
+      "objeto": "COMPRA AGIL MATERNIDAD MARTIN  BIOMEDICO BLOCK QUIRURGICO",
+      "reparticion": "Maternidad Martín",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 37067,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37067",
+      "objeto": "COMPRA AGIL MATERNIDAD MARTIN  BIOMEDICO BLOCK QUIRURGICO",
+      "reparticion": "Maternidad Martín",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 37062,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37062",
+      "objeto": "COMPRA ÁGIL - BIOMEDICOS PARA TERAPIA INTENSIVA  - MATERNIDAD MARTIN",
+      "reparticion": "Maternidad Martín",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 37060,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37060",
+      "objeto": "Compra Agil Compra de Toxina botulinica tipo A Secretaría de Salud Pública",
+      "reparticion": "Secretaría de Salud Pública",
+      "codigo": "SOBRE_PRESUPUESTO",
+      "detalle": "Adjudicado 5% sobre el presupuesto oficial",
+      "peso": 3
+    },
+    {
+      "id": 37055,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37055",
+      "objeto": "COMPRA ÁGIL - ADQUISICIÓN DE OFTALMOSCOPIO PARA EL SERVICIO DE OFTALMOLOGÍA PEDIÁTRICA- HOSPITAL I CARRASCO",
+      "reparticion": "Hospital Intendente Gabriel Carrasco",
+      "codigo": "UNICA_OFERTA",
+      "detalle": "Se adjudicó con una sola oferta",
+      "peso": 2
+    },
+    {
+      "id": 37053,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37053",
+      "objeto": "COMPRA AGIL CEMAR OFTALMOLOGICOS",
+      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 37052,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37052",
+      "objeto": "COMPRA ÁGIL HORMONALES (HECA)",
+      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 37052,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37052",
+      "objeto": "COMPRA ÁGIL HORMONALES (HECA)",
+      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 37051,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37051",
+      "objeto": "COMPRA AGIL CEMAR BIOMEDICO PARA CIRUGIA",
+      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 37051,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37051",
+      "objeto": "COMPRA AGIL CEMAR BIOMEDICO PARA CIRUGIA",
+      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
       "id": 37044,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37044",
       "objeto": "adquisición de bolsas de Nylom para bobina de arranque .",
@@ -5732,6 +5408,150 @@
       "codigo": "UNICA_OFERTA",
       "detalle": "Se adjudicó con una sola oferta",
       "peso": 2
+    },
+    {
+      "id": 36398,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36398",
+      "objeto": "Adquisición de equipamiento informático para la Sec. de Igualdad, Género y DDHH",
+      "reparticion": "Secretaría de Igualdad, Género y Derechos Humanos",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 36397,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36397",
+      "objeto": "COMPRA ÁGIL - Compra de cartelería para la fachada del centro de salud \"Las Flores\", perteneciente a la Dirección de Centros de Salud.-",
+      "reparticion": "APS (S.S.P.)",
+      "codigo": "UNICA_OFERTA",
+      "detalle": "Se adjudicó con una sola oferta",
+      "peso": 2
+    },
+    {
+      "id": 36396,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36396",
+      "objeto": "COMPRA ÁGIL: Resmas de cartulina para Abastecimiento de la Dirección de Centros de Salud.",
+      "reparticion": "APS (S.S.P.)",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 36395,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36395",
+      "objeto": "COMPRA ÁGIL: Adquisición de materiales de goma espuma y cuerina para cambio y reparación de camillas y sillas en varios Centros de Salud.",
+      "reparticion": "APS (S.S.P.)",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 36394,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36394",
+      "objeto": "Adquisición de Mobiliario para la Sec. de Igualdad, Género y DDHH",
+      "reparticion": "Secretaría de Igualdad, Género y Derechos Humanos",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 36387,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36387",
+      "objeto": "(COMPRA ÁGIL) Provisión de Banderitas Argentinas, para el evento \"Promesas 2026\", para la Dir. Gral. del Monumento a la Bandera",
+      "reparticion": "Monumento Nacional a la Bandera (Administración)",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 36379,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36379",
+      "objeto": "(COMPRA ÁGIL) - Contratación de estructuras de apuntalamiento - Programas Locales de Hábitat y Vivienda con la provincia de Santa Fe - Proyecto Curva Tucumán - Bº Cotar - Servicio Publico de la Vivienda y el Hábitat",
+      "reparticion": "Servicio Público de la Vivienda y el Hábitat",
+      "codigo": "UNICA_OFERTA",
+      "detalle": "Se adjudicó con una sola oferta",
+      "peso": 2
+    },
+    {
+      "id": 36376,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36376",
+      "objeto": "COMPRA AGIL MATERNIDAD MARTIN MATERIALES ELECTRICOS",
+      "reparticion": "Maternidad Martín",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 36363,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36363",
+      "objeto": "Compra agil Materiales de impresión Secretaría de Salud Pública",
+      "reparticion": "Secretaría de Salud Pública",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 36361,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36361",
+      "objeto": "COMPRA ÁGIL ARTÍCULOS DE FERRETERÍA (HECA)",
+      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 36355,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36355",
+      "objeto": "AUTOANALIZADORES QUÍMICA AUTOMATIZADA HECA",
+      "reparticion": "Dirección de Bioquímica",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 36355,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36355",
+      "objeto": "AUTOANALIZADORES QUÍMICA AUTOMATIZADA HECA",
+      "reparticion": "Dirección de Bioquímica",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 36354,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36354",
+      "objeto": "Contratación de servicio de recolección, transporte, tratamiento y disposición final de residuos biopatogénicos generados en establecimientos de salud dependientes de la Sec. de Salud Pública de la Municipalidad de Rosario",
+      "reparticion": "Secretaría de Salud Pública",
+      "codigo": "SOBRE_PRESUPUESTO",
+      "detalle": "Adjudicado 15% sobre el presupuesto oficial",
+      "peso": 3
+    },
+    {
+      "id": 36350,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36350",
+      "objeto": "QUIMICA AUTOMATIZADA ALBERDI \"DIRECCION DE BIOQUIMICA\"",
+      "reparticion": "Dirección de Bioquímica",
+      "codigo": "SOBRE_PRESUPUESTO",
+      "detalle": "Adjudicado 7% sobre el presupuesto oficial",
+      "peso": 3
+    },
+    {
+      "id": 36347,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36347",
+      "objeto": "COMPRA AGIL MATERNIDAD MARTIN  ANTIINFECCIOSOS",
+      "reparticion": "Maternidad Martín",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 36347,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36347",
+      "objeto": "COMPRA AGIL MATERNIDAD MARTIN  ANTIINFECCIOSOS",
+      "reparticion": "Maternidad Martín",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
     },
     {
       "id": 36344,
@@ -7565,6 +7385,186 @@
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35702",
       "objeto": "(COMPRA AGIL Nº 004 )  BIOMEDICOS ESPECIALES CIRCUITOS- SISTEMAS-SENSORES HOSPITAL ROQUE SAENZ PEÑA",
       "reparticion": "Hospital \"Dr. Roque Sáenz Peña\"",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 35697,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35697",
+      "objeto": "COMPRA AGIL M.MARTIN BIOMEDICO DE USO NORMATIZADO",
+      "reparticion": "Maternidad Martín",
+      "codigo": "SOBRE_PRESUPUESTO",
+      "detalle": "Adjudicado 21% sobre el presupuesto oficial",
+      "peso": 3
+    },
+    {
+      "id": 35697,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35697",
+      "objeto": "COMPRA AGIL M.MARTIN BIOMEDICO DE USO NORMATIZADO",
+      "reparticion": "Maternidad Martín",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 35695,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35695",
+      "objeto": "COMPRA ÁGIL_MEDICAMENTOS BAJO PROGRAMAS_ANFOTERICINA  B LIPOSOMAL 50 MG",
+      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
+      "codigo": "SOBRE_PRESUPUESTO",
+      "detalle": "Adjudicado 9% sobre el presupuesto oficial",
+      "peso": 3
+    },
+    {
+      "id": 35692,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35692",
+      "objeto": "*COMPRA AGIL N°03-026-2026* *COLCHONES Y FUNDAS PARA COLCHONES  SANATORIALES* \"HOSPITAL DE NIÑOS V.J.VILELA\"",
+      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
+      "codigo": "SOBRE_PRESUPUESTO",
+      "detalle": "Adjudicado 7% sobre el presupuesto oficial",
+      "peso": 3
+    },
+    {
+      "id": 35691,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35691",
+      "objeto": "Locación de un inmueble destinado al funcionamiento del Área de Servicios Urbanos Distrito Norte - Dir. Gral. de Mantenimiento Urbano y Respuesta Cercana - Secretaria de Ambiente y Espacio Publico.-",
+      "reparticion": "Dirección General de Mantenimiento Urbano y Respuesta Cercana",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 35686,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35686",
+      "objeto": "COMPRA ÁGIL - BIOMEDICOS CATETERES, SONDAS Y EQUIPOS NORMATIZADOS",
+      "reparticion": "Maternidad Martín",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 35686,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35686",
+      "objeto": "COMPRA ÁGIL - BIOMEDICOS CATETERES, SONDAS Y EQUIPOS NORMATIZADOS",
+      "reparticion": "Maternidad Martín",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 35683,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35683",
+      "objeto": "BIOMEDICOS IMPLANTES",
+      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
+      "codigo": "SOBRE_PRESUPUESTO",
+      "detalle": "Adjudicado 6% sobre el presupuesto oficial",
+      "peso": 3
+    },
+    {
+      "id": 35682,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35682",
+      "objeto": "COMPRA ÁGIL Nº 03-027-2026 ESPECÍFICOS NORMATIZADOS - CICLOSPORINA \"Hosp. Vilela\"",
+      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
+      "codigo": "SOBRE_PRESUPUESTO",
+      "detalle": "Adjudicado 21% sobre el presupuesto oficial",
+      "peso": 3
+    },
+    {
+      "id": 35681,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35681",
+      "objeto": "*COMPRA AGIL N°03-024-2026* * PUERTAS DE ALUMINIO DE HOSPITAL DE DIA DE ONCOHEMATOLOGIA* \"HOSPITAL DE NIÑOS V. J. VILELA\"",
+      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 35679,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35679",
+      "objeto": "COMPRA AGIL M.MARTIN BIOMEDICO DE USO GENERAL",
+      "reparticion": "Maternidad Martín",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 35678,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35678",
+      "objeto": "*COMPRA AGIL N° 03-025-2026* *ELECTROVALVULAS PARA MAQUINAS PASTEURIZADORA* \"HOSPITAL DE NIÑOS V.J.VILELA\"",
+      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 35674,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35674",
+      "objeto": "COMPRA AGIL  CEMAR  BIOMEDICO BLOCK QUIRURGICO",
+      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 35671,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35671",
+      "objeto": "COMPRA ÁGIL: Mesada, grifería y muebles de madera a medida para el Centro de Salud Barrio Toba.",
+      "reparticion": "APS (S.S.P.)",
+      "codigo": "UNICA_OFERTA",
+      "detalle": "Se adjudicó con una sola oferta",
+      "peso": 2
+    },
+    {
+      "id": 35671,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35671",
+      "objeto": "COMPRA ÁGIL: Mesada, grifería y muebles de madera a medida para el Centro de Salud Barrio Toba.",
+      "reparticion": "APS (S.S.P.)",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 35665,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35665",
+      "objeto": "Compra Agil Contratación del servicio de toxicologia",
+      "reparticion": "Secretaría de Salud Pública",
+      "codigo": "SOBRE_PRESUPUESTO",
+      "detalle": "Adjudicado 17% sobre el presupuesto oficial",
+      "peso": 3
+    },
+    {
+      "id": 35660,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35660",
+      "objeto": "COMPRA ÁGIL - Adquisición de materiales eléctricos para la Dirección General de Producción Estratégica",
+      "reparticion": "Secretaría de Cultura y Educación",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 35658,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35658",
+      "objeto": "Compras ágiles - elementos para operatoria dental para la Dirección de Salud Bucal.-",
+      "reparticion": "APS (S.S.P.)",
+      "codigo": "SOBREPRECIO_DETECTADO",
+      "detalle": "El propio organismo desestimó ofertas por sobreprecio",
+      "peso": 1
+    },
+    {
+      "id": 35651,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35651",
+      "objeto": "Servicio de alquiler de sistemas de iluminación para eventos organizados por la Dirección General de Producción Estratégica de la Secretaría de Cultura y Educación",
+      "reparticion": "Secretaría de Cultura y Educación",
+      "codigo": "DESIERTA_O_FRACASADA",
+      "detalle": "Ítems desiertos o fracasados: posible pliego mal armado o mercado cerrado",
+      "peso": 1
+    },
+    {
+      "id": 35649,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35649",
+      "objeto": "*COMPRA AGIL N°03-023-2026* MATERIALES ELECTRICOS *HOSPITAL DE NIÑOS VICTOR J. VILELA*",
+      "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "SOBREPRECIO_DETECTADO",
       "detalle": "El propio organismo desestimó ofertas por sobreprecio",
       "peso": 1
@@ -11008,177 +11008,6 @@
       "peso": 2
     },
     {
-      "id": 35534,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35534",
-      "objeto": "COMPRA ÁGIL ORDENANZA 10586, PRORROGADA POR ORD.10750- CONTRATACIÓN DE TRANSPORTES ESPECIALES CON CHOFER PARA LA DIRECCIÓN DE ADULTAS Y ADULTOS MAYORES \"SECRETARÍA DE DESARROLLO HUMANO Y HÁBITAT\"",
-      "reparticion": "Secretaría de Desarrollo Humano y Hábitat",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "6 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 35830,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35830",
-      "objeto": "COMPRA ÁGIL BIOMEDICOS PARA UNIDAD RENAL Y ESPECIALIDADES UROLOGICAS",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "11 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 35486,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35486",
-      "objeto": "COMPRA AGIL CEMAR BIOMEDICO TIRAS REACTIVAS",
-      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "7 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 36136,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36136",
-      "objeto": "COMPRA ÁGIL BIOMEDICOS DE ORTOPEDIA Y TRAUMATOLOGIA (SISTEMAS DE FIJACION DE COLUMNA) Hospital de Emergencias Dr. C.Alvarez",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 36860,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36860",
-      "objeto": "COMPRA ÁGIL CAG 209 INSUMOS PARA ARMADO PROVISORIO DE TABIQUERIA QUIIROFANOS A.E.P. Hospital de Emergencias Dr. C.Alvarez",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "4 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 36211,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36211",
-      "objeto": "COMPRA ÁGIL ANTIINFECCIOSOS DE VIA DE EXCEPCION Hospital de Emergencias Dr. C.Alvarez",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 35497,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35497",
-      "objeto": "COMPRA ÁGIL - MATERNIDAD MARTIN - INSUMOS PARA CURACIONES",
-      "reparticion": "Maternidad Martín",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "19 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 36541,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36541",
-      "objeto": "(COMPRA ÁGIL) - Contratacion del servicio de Seguridad y Vigilancia en el marco de las acciones programadas con motivo de los XIII Juegos Suramericanos Santa Fe 2026 - Soc. del Estado Municipal Hipódromo Rosario",
-      "reparticion": "Sociedad del Estado Municipal Hipódromo Rosario",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 35784,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35784",
-      "objeto": "COMPRA ÁGIL - Servicio de alquiler de grupos electrógenos para eventos organizados por el Complejo Astronómico Municipal",
-      "reparticion": "Secretaría de Cultura y Educación",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "6 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 36827,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36827",
-      "objeto": "COMPRA ÁGIL: adquisición de materiales de cuerina y planchas de goma espuma, para la realización del cambio y reparación de camillas y sillas para distintos  Centros de Salud.",
-      "reparticion": "APS (S.S.P.)",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 36418,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36418",
-      "objeto": "(COMPRA ÁGIL) - Contratación y alquiler del servicio de sonido para ser utilizado en LAS PROMESAS DE LEALTAD A LA BANDERA en la ciudad de Rosario y en el acto protocolar del 20 de junio organizado por la municipalidad de rosario",
-      "reparticion": "Subsecretaría de Gobierno",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "5 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 35768,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35768",
-      "objeto": "COMPRA AGIL BIOMEDICOS CATETERES, SONDAS Y EQUIPOS DE USO NORMATIZADO (HECA)",
-      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 35693,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35693",
-      "objeto": "(COMPRA ÁGIL  Nº 002 )BIOMEDICOS ESPECIALES TERAPIA - HOSPITAL ROQUE SAENZ PEÑA",
-      "reparticion": "Hospital \"Dr. Roque Sáenz Peña\"",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 35608,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35608",
-      "objeto": "COMPRA AGIL  M. MARTIN BIOMEDICO DE USO NORMATIZADO",
-      "reparticion": "Maternidad Martín",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "5 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 37115,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37115",
-      "objeto": "COMPRA AGIL 12-039-2026: Contratación de un Vehículo con Conducción para Salud Animal Rosario",
-      "reparticion": "Imusa (administración)",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "4 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 35665,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35665",
-      "objeto": "Compra Agil Contratación del servicio de toxicologia",
-      "reparticion": "Secretaría de Salud Pública",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 36337,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36337",
-      "objeto": "COMPRA ÁGIL - Provisión de bidones de agua potable y dispensers de agua frío-calor para eventos organizados por la Dirección General de Producción Estratégica",
-      "reparticion": "Secretaría de Cultura y Educación",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "4 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 35656,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35656",
-      "objeto": "COMPRA ÁGIL Nº 10-003-26- BANCO DE SANGRE - EQUIPO PARA DETERMINACIÓN DE HEMOGLOBINA Y DETERMINACIONES",
-      "reparticion": "Centro Regional de Hemoterapia",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "5 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
-      "id": 35648,
-      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35648",
-      "objeto": "COMPRA ÁGIL 10-001-26 / INSTITUTO DEL ALIMENTO- INSUMOS DE LABORATORIO",
-      "reparticion": "Instituto del Alimento Dr. Benjamín Berisso",
-      "codigo": "POSIBLE_FRACCIONAMIENTO",
-      "detalle": "4 compras ágiles parecidas en 30 días en la misma repartición",
-      "peso": 2
-    },
-    {
       "id": 38426,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/38426",
       "objeto": "COMPRA ÁGIL ORD10586/23 Compra de Específicos 3 SECRETARÍA DE SALUD PÚBLICA",
@@ -11194,6 +11023,15 @@
       "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "POSIBLE_FRACCIONAMIENTO",
       "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
+      "id": 35497,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35497",
+      "objeto": "COMPRA ÁGIL - MATERNIDAD MARTIN - INSUMOS PARA CURACIONES",
+      "reparticion": "Maternidad Martín",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "19 compras ágiles parecidas en 30 días en la misma repartición",
       "peso": 2
     },
     {
@@ -11215,12 +11053,30 @@
       "peso": 2
     },
     {
+      "id": 35656,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35656",
+      "objeto": "COMPRA ÁGIL Nº 10-003-26- BANCO DE SANGRE - EQUIPO PARA DETERMINACIÓN DE HEMOGLOBINA Y DETERMINACIONES",
+      "reparticion": "Centro Regional de Hemoterapia",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "5 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
       "id": 38023,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/38023",
       "objeto": "CEMAR BLOCK QUIRURGICO",
       "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
       "codigo": "POSIBLE_FRACCIONAMIENTO",
       "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
+      "id": 37115,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37115",
+      "objeto": "COMPRA AGIL 12-039-2026: Contratación de un Vehículo con Conducción para Salud Animal Rosario",
+      "reparticion": "Imusa (administración)",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "4 compras ágiles parecidas en 30 días en la misma repartición",
       "peso": 2
     },
     {
@@ -11239,6 +11095,24 @@
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "POSIBLE_FRACCIONAMIENTO",
       "detalle": "6 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
+      "id": 35486,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35486",
+      "objeto": "COMPRA AGIL CEMAR BIOMEDICO TIRAS REACTIVAS",
+      "reparticion": "Centro de Especialidades Médicas Ambulatorias de Rosario \"M. H. Zuasnábar\" (CEMAR)",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "7 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
+      "id": 35830,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35830",
+      "objeto": "COMPRA ÁGIL BIOMEDICOS PARA UNIDAD RENAL Y ESPECIALIDADES UROLOGICAS",
+      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "11 compras ágiles parecidas en 30 días en la misma repartición",
       "peso": 2
     },
     {
@@ -11278,12 +11152,39 @@
       "peso": 2
     },
     {
+      "id": 35534,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35534",
+      "objeto": "COMPRA ÁGIL ORDENANZA 10586, PRORROGADA POR ORD.10750- CONTRATACIÓN DE TRANSPORTES ESPECIALES CON CHOFER PARA LA DIRECCIÓN DE ADULTAS Y ADULTOS MAYORES \"SECRETARÍA DE DESARROLLO HUMANO Y HÁBITAT\"",
+      "reparticion": "Secretaría de Desarrollo Humano y Hábitat",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "6 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
       "id": 37163,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/37163",
       "objeto": "Compra Agil Nº 03-104-2026 - BIOMEDICOS PARA GASTROENTEROLOGIA - \"Hospital Vilela\"",
       "reparticion": "Hospital de Niños \"Víctor J. Vilela\"",
       "codigo": "POSIBLE_FRACCIONAMIENTO",
       "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
+      "id": 36337,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36337",
+      "objeto": "COMPRA ÁGIL - Provisión de bidones de agua potable y dispensers de agua frío-calor para eventos organizados por la Dirección General de Producción Estratégica",
+      "reparticion": "Secretaría de Cultura y Educación",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "4 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
+      "id": 35784,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35784",
+      "objeto": "COMPRA ÁGIL - Servicio de alquiler de grupos electrógenos para eventos organizados por el Complejo Astronómico Municipal",
+      "reparticion": "Secretaría de Cultura y Educación",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "6 compras ágiles parecidas en 30 días en la misma repartición",
       "peso": 2
     },
     {
@@ -11302,6 +11203,33 @@
       "reparticion": "APS (S.S.P.)",
       "codigo": "POSIBLE_FRACCIONAMIENTO",
       "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
+      "id": 35665,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35665",
+      "objeto": "Compra Agil Contratación del servicio de toxicologia",
+      "reparticion": "Secretaría de Salud Pública",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
+      "id": 36211,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36211",
+      "objeto": "COMPRA ÁGIL ANTIINFECCIOSOS DE VIA DE EXCEPCION Hospital de Emergencias Dr. C.Alvarez",
+      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
+      "id": 36860,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36860",
+      "objeto": "COMPRA ÁGIL CAG 209 INSUMOS PARA ARMADO PROVISORIO DE TABIQUERIA QUIIROFANOS A.E.P. Hospital de Emergencias Dr. C.Alvarez",
+      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "4 compras ágiles parecidas en 30 días en la misma repartición",
       "peso": 2
     },
     {
@@ -11350,6 +11278,15 @@
       "peso": 2
     },
     {
+      "id": 36541,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36541",
+      "objeto": "(COMPRA ÁGIL) - Contratacion del servicio de Seguridad y Vigilancia en el marco de las acciones programadas con motivo de los XIII Juegos Suramericanos Santa Fe 2026 - Soc. del Estado Municipal Hipódromo Rosario",
+      "reparticion": "Sociedad del Estado Municipal Hipódromo Rosario",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
       "id": 36079,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36079",
       "objeto": "COMPRA ÁGIL INYECTABLES MAYORES SUEROS (HECA)",
@@ -11368,10 +11305,37 @@
       "peso": 2
     },
     {
+      "id": 35768,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35768",
+      "objeto": "COMPRA AGIL BIOMEDICOS CATETERES, SONDAS Y EQUIPOS DE USO NORMATIZADO (HECA)",
+      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
+      "id": 36827,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36827",
+      "objeto": "COMPRA ÁGIL: adquisición de materiales de cuerina y planchas de goma espuma, para la realización del cambio y reparación de camillas y sillas para distintos  Centros de Salud.",
+      "reparticion": "APS (S.S.P.)",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
       "id": 36630,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36630",
       "objeto": "COMPRA ÁGIL- compra de materiales de impresión- Secretaría de Salud Pública",
       "reparticion": "Secretaría de Salud Pública",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
+      "id": 36136,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36136",
+      "objeto": "COMPRA ÁGIL BIOMEDICOS DE ORTOPEDIA Y TRAUMATOLOGIA (SISTEMAS DE FIJACION DE COLUMNA) Hospital de Emergencias Dr. C.Alvarez",
+      "reparticion": "Hospital de Emergencias \"Dr. Clemente Álvarez\"",
       "codigo": "POSIBLE_FRACCIONAMIENTO",
       "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
       "peso": 2
@@ -11413,6 +11377,15 @@
       "peso": 2
     },
     {
+      "id": 36418,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36418",
+      "objeto": "(COMPRA ÁGIL) - Contratación y alquiler del servicio de sonido para ser utilizado en LAS PROMESAS DE LEALTAD A LA BANDERA en la ciudad de Rosario y en el acto protocolar del 20 de junio organizado por la municipalidad de rosario",
+      "reparticion": "Subsecretaría de Gobierno",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "5 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
       "id": 35828,
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35828",
       "objeto": "COMPRA ÁGIL BIOMEDICOS IMPLANTES (HECA)",
@@ -11426,6 +11399,24 @@
       "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/36522",
       "objeto": "Compra Agil Especificos 3 Salud Pública",
       "reparticion": "Secretaría de Salud Pública",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
+      "id": 35648,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35648",
+      "objeto": "COMPRA ÁGIL 10-001-26 / INSTITUTO DEL ALIMENTO- INSUMOS DE LABORATORIO",
+      "reparticion": "Instituto del Alimento Dr. Benjamín Berisso",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "4 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
+      "id": 35693,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35693",
+      "objeto": "(COMPRA ÁGIL  Nº 002 )BIOMEDICOS ESPECIALES TERAPIA - HOSPITAL ROQUE SAENZ PEÑA",
+      "reparticion": "Hospital \"Dr. Roque Sáenz Peña\"",
       "codigo": "POSIBLE_FRACCIONAMIENTO",
       "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
       "peso": 2
@@ -11491,6 +11482,15 @@
       "reparticion": "Hospital \"Dr. Roque Sáenz Peña\"",
       "codigo": "POSIBLE_FRACCIONAMIENTO",
       "detalle": "3 compras ágiles parecidas en 30 días en la misma repartición",
+      "peso": 2
+    },
+    {
+      "id": 35608,
+      "url": "https://www.rosario.gob.ar/inicio/compras-licitaciones/detalle/35608",
+      "objeto": "COMPRA AGIL  M. MARTIN BIOMEDICO DE USO NORMATIZADO",
+      "reparticion": "Maternidad Martín",
+      "codigo": "POSIBLE_FRACCIONAMIENTO",
+      "detalle": "5 compras ágiles parecidas en 30 días en la misma repartición",
       "peso": 2
     }
   ],
@@ -11582,7 +11582,7 @@
       "reparticiones": 3
     },
     {
-      "proveedor": "BUNKER SEGURIDAD S.R.L.",
+      "proveedor": "BUNKER SEGURIDAD SRL",
       "cuit": "30710654316",
       "monto": 2916406462,
       "adjudicaciones": 5,
@@ -11624,9 +11624,9 @@
       "reparticiones": 1
     },
     {
-      "proveedor": "IANUS S.A.",
+      "proveedor": "IANUS S.A",
       "cuit": null,
-      "monto": 999289300.7599999,
+      "monto": 999289300.76,
       "adjudicaciones": 54,
       "reparticiones": 4
     },
@@ -11794,7 +11794,7 @@
     {
       "proveedor": "DROGUERÍA 20 DE JUNIO S.A.",
       "cuit": null,
-      "monto": 350677886.6,
+      "monto": 350677886.59999996,
       "adjudicaciones": 9,
       "reparticiones": 3
     },
@@ -11862,7 +11862,7 @@
       "reparticiones": 5
     },
     {
-      "proveedor": "JNC MANTENIMIENTO INDUSTRIAL S. R. L.",
+      "proveedor": "JNC MANTENIMIENTO INDUSTRIAL S.R.L.",
       "cuit": "30717765571",
       "monto": 216727200,
       "adjudicaciones": 3,
