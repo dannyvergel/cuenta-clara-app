@@ -12,6 +12,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { execFile } from 'node:child_process'
 import { promisify } from 'node:util'
+import { pathToFileURL } from 'node:url'
 
 const sh = promisify(execFile)
 
@@ -156,4 +157,5 @@ async function main() {
   console.log(`listo: ${ok} contrataciones, ${vacios} ids vacíos → ${SALIDA}`)
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) main()
+// pathToFileURL: en Windows argv[1] es C:\\... y la comparación con file:// fallaba en silencio.
+if (import.meta.url === pathToFileURL(process.argv[1]).href) main()
