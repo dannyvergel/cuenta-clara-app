@@ -76,17 +76,20 @@ async function main() {
   log(`nuevas: ${nuevas} (último id antes: ${ultimo})`)
 
   // 2. Revisión de abiertas, empezando por las que hace más tiempo no se miran.
-  const abiertas = [...regs.values()].filter((r) => ABIERTOS.has(r.estado)).sort((a, b) => (a.capturado ?? '').localeCompare(b.capturado ?? '')).slice(0, MAX_REVISAR)
+  const abiertas = [...regs.values()].filter((r) => ABIERTOS.has(r.estado)).sort((a, b) => (a.revisado ?? a.capturado ?? '').localeCompare(b.revisado ?? b.capturado ?? '')).slice(0, MAX_REVISAR)
   for (const viejo of abiertas) {
     const r = await bajar(viejo.id_fuente)
-    if (!r) { errores.push(viejo.id_fuente); await dormir(PAUSA); continue }
+    // Si falla, igual se marca como revisada para que rote y no trabe la cola.
+    if (!r) { errores.push(viejo.id_fuente); viejo.revisado = new Date().toISOString(); await dormir(PAUSA); continue }
     if (r.estado !== viejo.estado || r.resultado !== viejo.resultado) {
       actualizadas++
       if (r.estado === 'Adjudicada') adjudicadas++
     }
+    r.revisado = new Date().toISOString()
     regs.set(viejo.id_fuente, r)
     await dormir(PAUSA)
   }
+  if (errores.length) log(`ids con error: ${errores.join(', ')}`)
   log(`revisadas: ${abiertas.length}, cambiaron: ${actualizadas} (${adjudicadas} adjudicadas), errores: ${errores.length}`)
 
   // Reescribe el JSONL ordenado y sin duplicados.
