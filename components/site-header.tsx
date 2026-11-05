@@ -7,6 +7,7 @@ import { ETIQUETA_ROL, type Rol, type Usuario } from '@/lib/roles'
 import { cn } from '@/lib/utils'
 
 const secciones: { href: string; label: string; roles?: Rol[] }[] = [
+  { href: '/observatorio', label: 'Observatorio' },
   { href: '/licitaciones', label: 'Licitaciones' },
   { href: '/mapa', label: 'Mapa' },
   { href: '/presupuesto', label: 'Presupuesto' },

@@ -25,7 +25,11 @@ const API_BASE = (process.env.NEXT_PUBLIC_API_BASE ?? '').replace(/\/$/, '') || 
 /** true cuando los datos vienen de la base propia (Route Handlers de /api). */
 export const apiInterna = API_BASE === '/api'
 
-const enDesarrollo = process.env.NODE_ENV === 'development'
+/**
+ * Respaldo con datos sintéticos: siempre en desarrollo y, en un despliegue de demostración,
+ * cuando NEXT_PUBLIC_DATOS_DEMO=1 (sin base de datos; lo que se escribe no persiste).
+ */
+const enDesarrollo = process.env.NODE_ENV === 'development' || process.env.NEXT_PUBLIC_DATOS_DEMO === '1'
 
 async function pedir<T>(ruta: string, init?: RequestInit): Promise<T> {
   let res: Response
@@ -80,7 +84,7 @@ async function fuentePrincipal(): Promise<Fuente> {
 }
 
 let avisado = false
-/** true si alguna lectura cayó a los datos sintéticos (solo ocurre en desarrollo, sin base). */
+/** true si alguna lectura cayó a los datos sintéticos (en desarrollo o en modo demo, sin base). */
 export const datosDemo = () => avisado
 function conRespaldo<K extends keyof Fuente>(clave: K) {
   return (async (...args: Parameters<Fuente[K]>) => {

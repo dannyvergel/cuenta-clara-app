@@ -24,7 +24,6 @@ export const metadata: Metadata = {
   },
   description:
     'Plataforma pública de trazabilidad de compras estatales: licitaciones, cotizaciones, precios de referencia, presupuesto y registro verificable de decisiones.',
-  generator: 'v0.app',
 }
 
 export const viewport: Viewport = {
